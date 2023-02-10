@@ -1,0 +1,19 @@
+Public Static Function ganjil(ByVal awal As Integer, ByVal akhir As Integer) As Integer
+
+    For x = awal To akhir
+        If x Mod 2 = 1 Then
+            Debug.Print x
+            ganjil = x
+        End If
+    Next x
+
+End Function
+
+Public Static Function genap(ByVal awal As Integer, ByVal akhir As Integer) As Integer
+    For x = awal To akhir
+        If x Mod 2 = 0 Then
+            Debug.Print x
+            genap = x
+        End If
+    Next x
+End Function
