@@ -1,0 +1,25 @@
+Option Explicit
+
+Option Explicit adalah pernyataan dalam modul VBA (Visual Basic for Applications) di Microsoft Access yang digunakan untuk memaksa deklarasi variabel sebelum penggunaan dalam kode VBA. Dengan menggunakan Option Explicit, pengguna harus mendeklarasikan variabel dengan tipe data tertentu sebelum variabel tersebut dapat digunakan dalam kode VBA. Jika sebuah variabel tidak dideklarasikan dengan benar atau tidak dideklarasikan sama sekali, Access akan menampilkan pesan kesalahan saat kode VBA dijalankan.
+
+Dalam praktiknya, Option Explicit sangat membantu dalam pengembangan aplikasi dan membantu mencegah kesalahan dalam kode VBA. Dengan memaksa deklarasi variabel sebelum penggunaannya, Option Explicit membantu memastikan bahwa variabel digunakan dengan benar dan dengan tipe data yang tepat. Hal ini dapat mengurangi risiko kesalahan logika atau pemrosesan data yang tidak diinginkan dalam aplikasi.
+
+Contoh penggunaan Option Explicit:
+
+Misalnya, jika kita ingin membuat sebuah fungsi yang menghitung nilai rata-rata dari dua bilangan bulat, kita bisa menulis kode VBA berikut tanpa menggunakan Option Explicit:
+
+Function HitungRata(bil1, bil2)
+   HitungRata = (bil1 + bil2) / 2
+End Function
+
+Namun, jika kita ingin memastikan bahwa bilangan yang diterima oleh fungsi adalah bilangan bulat, kita dapat menambahkan Option Explicit dan mendeklarasikan variabel bil1 dan bil2 dengan tipe data Integer seperti berikut:
+
+Option Explicit
+
+Function HitungRata(bil1 As Integer, bil2 As Integer) As Double
+   HitungRata = (bil1 + bil2) / 2
+End Function
+
+Dalam contoh ini, ketika kita menggunakan Option Explicit, Access akan memaksa kita untuk mendeklarasikan tipe data variabel bil1 dan bil2 sebelum digunakan dalam kode VBA. Dalam hal ini, kita menggunakan tipe data Integer untuk memastikan bahwa bilangan yang diterima oleh fungsi adalah bilangan bulat.
+
+Kesimpulannya, penggunaan Option Explicit sangat dianjurkan dalam pengembangan aplikasi di Microsoft Access untuk membantu mencegah kesalahan dalam kode VBA dan memastikan variabel digunakan dengan tipe data yang tepat. Dengan menggunakan Option Explicit, kita dapat memperbaiki dan mempercepat proses pengembangan aplikasi, serta meningkatkan kualitas dan konsistensi kode VBA.

@@ -1,0 +1,17 @@
+Perbedaan Standalone Class Modules, Form Modules dan Report Modules
+
+Standalone Class Modules, Form Modules, dan Report Modules adalah jenis modul yang berbeda dalam Microsoft Access. Meskipun mereka semua menggunakan VBA untuk menambahkan fungsionalitas kustom ke aplikasi, namun masing-masing jenis modul memiliki perbedaan dalam fokus dan penggunaannya. Berikut adalah perbedaan utama dari ketiga jenis modul tersebut:
+
+    Standalone Class Modules
+
+Standalone Class Modules adalah modul yang mandiri dan independen dalam aplikasi Access. Mereka digunakan untuk membuat objek kustom dan fungsi-fungsi yang dapat digunakan di seluruh aplikasi. Standalone Class Modules digunakan untuk membuat kode yang dapat digunakan secara global, yang dapat digunakan oleh modul lain seperti Form Modules atau Report Modules.
+
+    Form Modules
+
+Form Modules adalah jenis modul yang terkait langsung dengan form (formulir) di Microsoft Access. Mereka digunakan untuk menangani event atau kejadian yang terjadi pada form, seperti mengambil data dari form, memvalidasi data, atau menampilkan data dalam form. Form Modules memungkinkan pengembang untuk menambahkan fungsionalitas kustom ke form, sehingga dapat meningkatkan kemampuan dan fleksibilitas aplikasi yang dikembangkan.
+
+    Report Modules
+
+Report Modules adalah jenis modul yang terkait langsung dengan laporan di Microsoft Access. Mereka digunakan untuk menangani event atau kejadian pada suatu laporan, seperti melakukan validasi data atau menambahkan data tambahan ke laporan sebelum dicetak. Report Modules memungkinkan pengembang untuk menambahkan fungsionalitas kustom ke laporan, sehingga dapat meningkatkan kemampuan dan fleksibilitas aplikasi yang dikembangkan.
+
+Perbedaan utama antara ketiga jenis modul tersebut adalah fokus penggunaannya. Standalone Class Modules digunakan untuk membuat kode yang dapat digunakan secara global dan tidak terkait dengan form atau laporan tertentu. Form Modules dan Report Modules terkait langsung dengan form atau laporan dan digunakan untuk menangani event atau kejadian yang terjadi pada form atau laporan. Namun, meskipun terdapat perbedaan fokus penggunaannya, ketiga jenis modul tersebut dapat digunakan secara bersamaan untuk membangun aplikasi Access yang lebih kompleks dan fungsional.

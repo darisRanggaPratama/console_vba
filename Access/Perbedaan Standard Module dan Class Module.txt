@@ -1,0 +1,55 @@
+Perbedaan Standard Module dan Class Module
+
+Standard Module dan Class Module adalah dua jenis modul yang dapat digunakan dalam pengembangan aplikasi di Microsoft Access. Perbedaan utama antara keduanya terletak pada bagaimana kode VBA dalam modul tersebut digunakan.
+
+    Standard Module
+
+Standard Module adalah jenis modul yang digunakan untuk menyimpan fungsi, subrutin, dan variabel global yang dapat digunakan di seluruh aplikasi Access. Kode VBA dalam Standard Module dapat dipanggil dari formulir, laporan, atau modul lainnya dalam database.
+
+Contoh penggunaan Standard Module di Microsoft Access:
+
+Public Function HitungTotal(ByVal vHarga As Double, ByVal vJumlah As Integer) As Double
+    HitungTotal = vHarga * vJumlah
+End Function
+
+Dalam contoh ini, kita menggunakan Standard Module untuk membuat fungsi "HitungTotal" yang digunakan untuk menghitung total harga dari suatu produk berdasarkan harga dan jumlah yang diinputkan. Fungsi ini dapat dipanggil dari formulir, laporan, atau modul lainnya dalam database.
+
+    Class Module
+
+Class Module adalah jenis modul yang digunakan untuk membuat kelas atau tipe data baru yang dapat digunakan di seluruh aplikasi Access sebagai objek yang terpisah. Kode VBA dalam Class Module digunakan untuk mendefinisikan properti dan metode untuk kelas baru tersebut.
+
+Contoh penggunaan Class Module di Microsoft Access:
+
+Private m_Nama As String
+Private m_Harga As Double
+Private m_Kategori As String
+
+Public Property Get Nama() As String
+    Nama = m_Nama
+End Property
+
+Public Property Let Nama(ByVal vNewValue As String)
+    m_Nama = vNewValue
+End Property
+
+Public Property Get Harga() As Double
+    Harga = m_Harga
+End Property
+
+Public Property Let Harga(ByVal vNewValue As Double)
+    m_Harga = vNewValue
+End Property
+
+Public Property Get Kategori() As String
+    Kategori = m_Kategori
+End Property
+
+Public Property Let Kategori(ByVal vNewValue As String)
+    m_Kategori = vNewValue
+End Property
+
+Dalam contoh ini, kita menggunakan Class Module untuk membuat kelas "Produk" dengan properti "Nama", "Harga", dan "Kategori". Properti ini dapat digunakan untuk menyimpan informasi tentang suatu produk. Kode VBA dalam Class Module juga dapat digunakan untuk mendefinisikan metode yang dapat digunakan untuk memanipulasi properti kelas.
+
+Perbedaan utama antara Standard Module dan Class Module adalah bahwa Standard Module digunakan untuk menyimpan fungsi, subrutin, dan variabel global yang dapat digunakan di seluruh aplikasi Access, sedangkan Class Module digunakan untuk membuat kelas atau tipe data baru yang dapat digunakan di seluruh aplikasi Access sebagai objek yang terpisah.
+
+Dalam pengembangan aplikasi di Microsoft Access, penggunaan kedua jenis modul ini sangat berguna dan memungkinkan pengembang untuk membuat aplikasi yang lebih modular dan fleksibel.

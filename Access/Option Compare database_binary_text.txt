@@ -1,0 +1,53 @@
+Option Compare Database adalah pernyataan yang digunakan dalam modul VBA (Visual Basic for Applications) di Microsoft Access. Pernyataan ini mengontrol cara perbandingan string dilakukan dalam VBA. Dalam bahasa yang sederhana, Option Compare Database mengontrol cara perbandingan karakter dilakukan pada string yang digunakan dalam kode VBA di Access.
+
+Pernyataan ini bisa memiliki dua nilai, yaitu "Binary" atau "Text". Jika nilai "Binary" digunakan, maka perbandingan karakter dilakukan secara biner (berdasarkan kode ASCII karakter). Sedangkan jika nilai "Text" digunakan, maka perbandingan karakter dilakukan secara text.
+
+Misalnya, jika Anda menggunakan nilai "Binary", karakter "a" dan "A" akan dianggap berbeda, karena nilai kode ASCII untuk kedua karakter tersebut berbeda. Namun jika nilai "Text" digunakan, karakter "a" dan "A" akan dianggap sama.
+
+Secara default, Access mengasumsikan bahwa Option Compare Database menggunakan nilai "Database" jika tidak ditentukan secara eksplisit dalam kode VBA. Nilai "Database" akan menggunakan pengaturan yang telah ditentukan pada pengaturan bahasa Access yang sedang digunakan. Misalnya, jika pengaturan bahasa Access Anda adalah "Bahasa Indonesia", maka nilai "Database" akan menggunakan aturan perbandingan karakter yang berlaku dalam bahasa Indonesia.
+
+Untuk mengubah nilai Option Compare Database dalam modul VBA, ikuti langkah berikut:
+
+    Buka modul VBA di Access.
+    Klik pada menu "Tools" dan pilih "Options".
+    Pilih "Editor" di bagian kiri jendela Options.
+    Pilih nilai yang diinginkan pada dropdown "Option Compare" di bagian kanan jendela Options.
+    Klik "OK" untuk menyimpan pengaturan.
+
+Secara umum, penggunaan Option Compare Database sangat bergantung pada kebutuhan dan preferensi individu dalam menulis kode VBA di Access. Namun, penting untuk diingat bahwa nilai yang dipilih akan mempengaruhi cara perbandingan karakter dilakukan dalam kode VBA.
+===
+
+Option Compare Binary adalah salah satu pernyataan dalam modul VBA (Visual Basic for Applications) di Microsoft Access. Pernyataan ini mengontrol cara perbandingan karakter dilakukan dalam VBA. Jika nilai "Binary" digunakan, maka perbandingan karakter dilakukan secara biner, berdasarkan kode ASCII karakter.
+
+Dalam bahasa yang lebih sederhana, Option Compare Binary menentukan cara Access membandingkan dua string. Access akan membandingkan setiap karakter dalam kedua string secara bergantian. Jika nilai ASCII untuk karakter pada posisi yang sama dalam kedua string sama, Access akan memeriksa karakter di posisi selanjutnya dalam kedua string. Namun, jika nilai ASCII untuk karakter pada posisi yang sama berbeda, Access akan memutuskan bahwa kedua string berbeda.
+
+Sebagai contoh, jika Anda memiliki dua string "ABC" dan "abc" dan menggunakan nilai "Binary", Access akan membandingkan setiap karakter secara bergantian dan menemukan bahwa nilai ASCII untuk "A" tidak sama dengan nilai ASCII untuk "a". Oleh karena itu, Access akan memutuskan bahwa kedua string berbeda.
+
+Option Compare Binary sering digunakan dalam pengembangan aplikasi database Access karena menghasilkan perbandingan karakter yang lebih akurat dan konsisten daripada nilai "Text". Hal ini terutama berlaku untuk data yang sensitif terhadap case (besar kecil huruf) seperti nama pengguna dan kata sandi.
+
+Untuk mengaktifkan Option Compare Binary di dalam modul VBA di Access, ikuti langkah-langkah berikut ini:
+
+    Buka modul VBA di Access.
+    Klik pada menu "Tools" dan pilih "Options".
+    Pilih "Editor" di bagian kiri jendela Options.
+    Pilih "Binary" dari dropdown "Option Compare" di bagian kanan jendela Options.
+    Klik "OK" untuk menyimpan pengaturan.
+
+Secara umum, penggunaan Option Compare Binary sangat bergantung pada kebutuhan dan preferensi individu dalam menulis kode VBA di Access. Namun, penting untuk diingat bahwa nilai yang dipilih akan mempengaruhi cara perbandingan karakter dilakukan dalam kode VBA dan bisa mempengaruhi konsistensi dan akurasi data.
+===
+
+Option Compare Text adalah salah satu pernyataan dalam modul VBA (Visual Basic for Applications) di Microsoft Access. Pernyataan ini mengontrol cara perbandingan karakter dilakukan dalam VBA. Jika nilai "Text" digunakan, maka perbandingan karakter dilakukan secara text, dengan mengabaikan case (besar kecil huruf).
+
+Dalam bahasa yang lebih sederhana, Option Compare Text menentukan cara Access membandingkan dua string. Access akan mengabaikan perbedaan besar kecil huruf dan memperlakukan karakter dengan case yang berbeda sebagai sama. Sebagai contoh, jika Anda memiliki dua string "ABC" dan "abc" dan menggunakan nilai "Text", Access akan memperlakukan kedua string sebagai sama.
+
+Option Compare Text sering digunakan dalam aplikasi database Access yang memproses data seperti nama pengguna, alamat email, atau kata sandi. Dalam kasus ini, tidak penting apakah karakternya diketik dalam huruf besar atau kecil karena hasilnya tetap sama.
+
+Untuk mengaktifkan Option Compare Text di dalam modul VBA di Access, ikuti langkah-langkah berikut ini:
+
+    Buka modul VBA di Access.
+    Klik pada menu "Tools" dan pilih "Options".
+    Pilih "Editor" di bagian kiri jendela Options.
+    Pilih "Text" dari dropdown "Option Compare" di bagian kanan jendela Options.
+    Klik "OK" untuk menyimpan pengaturan.
+
+Secara umum, penggunaan Option Compare Text sangat bergantung pada kebutuhan dan preferensi individu dalam menulis kode VBA di Access. Namun, penting untuk diingat bahwa nilai yang dipilih akan mempengaruhi cara perbandingan karakter dilakukan dalam kode VBA dan bisa mempengaruhi konsistensi dan akurasi data.
