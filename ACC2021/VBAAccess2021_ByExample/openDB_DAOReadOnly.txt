@@ -1,0 +1,27 @@
+'---------------------------------------------------------------------
+' code not included in the book
+'---------------------------------------------------------------------
+' The following procedure opens a database for shared, read-only access. When the second 'argument of the OpenDatabase method is set to ' False, the database is opened in shared mode. 'This is the default setting. If the value of this argument is True, the database is opened ' in 'exclusive mode (other users are prevented from opening the database). The third argument of the 'OpenDatabase method specifies whether ' you want to open the database with read/write (default) 'or read-only access. To open the database in read-only mode, set the value of  'this argument 'to True as demonstrated in the following procedure.
+
+Sub openDB_DAOReadOnly()
+  Dim db As DAO.Database
+  Dim t As Variant
+  Dim strNames As String
+
+  strNames = ""
+
+  ' Open for shared read-only access
+
+  Set db = DBEngine.OpenDatabase(CurrentProject.Path & _
+   "\Northwind 2007.accdb", False, True)
+
+  For Each t In db.TableDefs
+    strNames = strNames & t.Name & vbCrLf
+  Next
+  MsgBox "The following tables were found:" & _
+   vbCrLf & strNames
+  db.Close
+End Sub
+
+' You can try out this procedure by entering it in the Code window of the current VBA module and 'then running it. When the procedure finishes executing you should see a message box with the 'list of all the tables found in the Northwind 2007 database.
+

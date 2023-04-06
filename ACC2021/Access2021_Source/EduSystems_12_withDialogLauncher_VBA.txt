@@ -1,0 +1,8 @@
+'//////////////////////////////////////////////
+'VBA procedure for Dialog Launcher
+'////////////////////////////////////////////
+
+Public Sub OnActionLaunch(ctl As IRibbonControl)
+  ' open the About Microsoft Office Access box
+  DoCmd.RunCommand acCmdAboutMicrosoftAccess
+End Sub

@@ -1,0 +1,42 @@
+' Hands-On 12.11 (Chapter 12)
+
+Sub Add_NewFields_Modified()
+    Dim conn As ADODB.Connection
+    Dim cat As New ADOX.Catalog
+    Dim tblName As String
+    Dim fldName As String
+    Dim fld As ADOX.Column
+    Dim fldExists As Boolean
+    
+    tblName = "CustomersCopy"
+    fldName = "MyNewField"
+    
+    Set conn = New ADODB.Connection
+    conn.Open "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+     "Data Source=" & CurrentProject.Path & _
+     "\Northwind_Chap12.mdb"
+    
+    Set cat = New ADOX.Catalog
+    cat.ActiveConnection = conn
+    
+    fldExists = False
+    For Each fld In cat.Tables(tblName).Columns
+      If fld.Name = fldName Then
+          fldExists = True
+          Exit For
+          End If
+    Next
+    
+    If Not fldExists Then
+      cat.Tables(tblName).Columns.Append _
+        fldName, adVarWChar, 15
+    Else
+        MsgBox fldName & " already exists in the table " _
+            & tblName & "."
+      
+    End If
+    
+    Set cat = Nothing
+    conn.Close
+    Set conn = Nothing
+End Sub

@@ -1,0 +1,79 @@
+====================================================================================
+Julitta Korol. Access 2021 / Microsoft 365 Programming By Example
+ISBN: 978-1-68392-841-6 | Copyright 2022 by Mercury Learning and Information LLC.
+====================================================================================
+
+SYSTEM REQUIREMENTS
+-------------------
+Operating System: Windows 10 / 11
+Internet access: required for downloading additional recommended materials and working with advanced chapters
+
+
+SOFTWARE REQUIREMENTS
+---------------------
+Standalone Microsoft Access 2021 / Microsoft 365 (Family or Personal)
+
+
+WHAT'S IN THE COMPANION FILES?
+------------------------------
+Companion files include the source code and supplemental files for the Hands-On exercises and custom projects presented in the book.
+The download also contains all the figures used in the book.
+
+The archive directory structure and contents is shown below:
+
+**********************************
+* VBAAccess2021_ByExample_Source *
+**********************************
+This folder contains the initial / startup files that may be required for working with Hands-On exercises and custom projects. 
+
+************************************************
+* VBAAccess2021_ByExample_Source/External Docs *
+************************************************
+This folder contains the image files in the .JPG format for working with the attachment features demonstrated in Chapter 11.
+
+*****************************************
+* VBAAccess2021_ByExample_Source/Images *
+*****************************************
+This folder contains the image files in the .GIF format for working with the Ribbon Interface demonstrated in Chapter 23.
+
+
+**********************************
+* VBAAccess2021_ByExample_Primer *
+**********************************
+This folder contains files that were created by working with the book's Hands-On exercises and custom projects in Chapters 1 through 9.
+
+
+*****************************
+* VBAAccess2021_ByExample   *
+*****************************
+This folder contains files created in Chapters 10 - 26, 28.
+This folder also contains two additional folders (External Docs and Images) that are also present within the VBAAccess2021_ByExample_Source folder.
+
+
+*****************************
+* VBAAccess2021_XML         *
+*****************************
+This folder contains files created in Chapter 27.
+
+
+*************************************
+* VBAAccess2021_ByExample_Figures   *
+*************************************
+This folder contains all the figures used for presenting the concepts discussed and demonstrated in the book. For easy access, all figures are organized into corresponding chapters.
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 

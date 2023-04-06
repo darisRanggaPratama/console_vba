@@ -1,0 +1,7 @@
+'/////////////////////////////////////////
+'VBA Procedure for Quick Access Toolbar
+'///////////////////////////////////////
+
+Public Sub OpenCalculator(ctl As IRibbonControl)
+Shell "Calc.exe", vbNormalFocus
+End Sub

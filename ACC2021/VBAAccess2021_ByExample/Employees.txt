@@ -1,0 +1,4 @@
+"Last Name", "First Name", "Birthdate", "Years Worked" 
+"Krawiec","Bogdan",#1963-01-02#,3
+"Gorecka","Jadwiga",#1948-05-12#,1
+"Olszewski","Stefan",#1957-04-07#,0

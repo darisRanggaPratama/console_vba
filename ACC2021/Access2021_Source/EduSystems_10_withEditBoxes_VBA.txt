@@ -1,0 +1,11 @@
+'///////////////////////////////////////////
+'VBA Procedure for Edit Boxes
+'//////////////////////////////////////////
+
+Public Sub onFullNameChange(ctl As IRibbonControl, _
+ text As String)
+  If text <> "" Then
+    MsgBox "Is '" & text & _
+     "' your real name?"
+  End If
+End Sub

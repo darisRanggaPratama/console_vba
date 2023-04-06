@@ -1,0 +1,38 @@
+'-----------------------------------------------------------------------------------------------
+' code not included in the book
+' You can rewrite the procedure in Hands-On 10.2
+' to use a DSN-less ODBC connection, as shown below
+' the driver used was obtained by installing the "Microsoft Access Database Engine 2010 Redistributable" 
+' (AccessDatabaseEngine_x64.exe) from http://www.microsoft.com/en-us/download/details.aspx?id=13255
+'-----------------------------------------------------------------------------------------------
+
+Sub Open_AndRead_dBaseFile_DSNLess()
+  Dim conn As ADODB.Connection
+  Dim rst As ADODB.Recordset
+  
+  Set conn = New ADODB.Connection
+  
+  conn.Open "DRIVER={Microsoft Access dBASE Driver (*.dbf, *.ndx, *.mdx)};" _
+   & "DBQ=" & CurrentProject.Path & "\"
+  
+  Debug.Print conn.ConnectionString
+  
+  Set rst = New ADODB.Recordset
+  rst.Open "Customer.dbf", conn
+  
+  Do Until rst.EOF
+    Debug.Print rst.Fields(1).Value
+    rst.MoveNext
+  Loop
+  
+  rst.Close
+  Set rst = Nothing
+  conn.Close
+  Set conn = Nothing
+End Sub
+
+
+'In the preceding DSN-less connection, we pass to the Open method of the Connection object a connection string that specifies how a driver 
+'connects to a data source. Here, Driver specifies that you want to use the dBASE database file. Notice that the value of the driver is 
+'entered between curly brackets {}. DBQ informs the ADO Connection object about the physical path to the file. The remaining code of this 
+'procedure is identical to the code used in the DSN connection in Hands-On 10.2.

@@ -1,0 +1,43 @@
+' Paste the following three declarations the top of the Module code 
+' just below the Option Explicit
+
+Public objRibbon As IRibbonUI
+
+Private strUserTxt As String
+Private isCtlEnabled As Boolean
+
+
+'///////////////////////////////////////////////////////
+'VBA Procedures with Refresh
+'//////////////////////////////////////////////////////
+
+' callback for the onLoad attribute of customUI
+Public Sub RefreshMe(ribbon As IRibbonUI)
+  Set objRibbon = ribbon
+  isCtlEnabled = False
+End Sub
+
+
+Public Sub onGetEnabled_Health(control As IRibbonControl, _
+  ByRef enabled)
+  enabled = isCtlEnabled
+End Sub
+
+Public Sub getEditBoxText(control As IRibbonControl, _
+  ByRef text)
+  text = UCase(strUserTxt)
+End Sub
+
+Public Sub onFullNameChangeToUcase(ByVal control As IRibbonControl, _
+ text As String)
+
+  If text <> "" Then
+    strUserTxt = text
+    objRibbon.InvalidateControl "txtFullName"
+    isCtlEnabled = True
+  Else
+    isCtlEnabled = False
+  End If
+  objRibbon.InvalidateControl "chkHealth"
+End Sub
+

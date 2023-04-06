@@ -1,0 +1,19 @@
+'///////////////////////////////////////////////
+'VBA procedures for Combo and Drop-down controls
+'///////////////////////////////////////////////
+
+Public Sub OnChangeLang(ctl As IRibbonControl, _
+ text As String)
+
+  MsgBox "You selected the " & text & " language guide."
+End Sub
+
+
+Public Sub OnActionBoro(ctl As IRibbonControl, _
+ ByRef SelectedID As String, _
+ ByRef SelectedIndex As Integer)
+
+  MsgBox "Index=" & SelectedIndex & " ID=" & SelectedID
+End Sub
+
+

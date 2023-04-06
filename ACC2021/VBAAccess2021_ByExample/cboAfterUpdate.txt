@@ -1,0 +1,33 @@
+Version =196611
+ColumnsShown =8
+Begin
+    Action ="SetTempVar"
+    Argument ="CurrentUserID"
+    Argument ="[Screen].[ActiveControl]"
+End
+Begin
+    Action ="OnError"
+    Argument ="0"
+End
+Begin
+    Action ="Requery"
+End
+Begin
+    Action ="RunCommand"
+    Argument ="18"
+End
+Begin
+    Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
+        "nterfaceMacro For=\"cboCurrentEmployee\" xmlns=\"http://schemas.microsoft.com/of"
+        "fice/accessservices/2009/11/application\"><Statements><Action Name=\"SetTempVar\""
+        "><Argument Name=\"Name\">Current"
+End
+Begin
+    Comment ="_AXL:UserID</Argument><Argument Name=\"Expression\">[Screen].[ActiveControl]</Ar"
+        "gument></Action><Action Name=\"OnError\"/><Action Name=\"Requery\"/><Action Name"
+        "=\"RunMenuCommand\"><Argument Name=\"Command\">Refresh</Argument></Action></Stat"
+        "ements></UserInterfaceM"
+End
+Begin
+    Comment ="_AXL:acro>"
+End

@@ -1,0 +1,19 @@
+'/////////////////////////////////////////
+' Toggle button VBA procedures
+'////////////////////////////////////////
+
+Sub OnGetPressed(control As IRibbonControl, _
+ ByRef pressed)
+
+  If control.id="tglNewStudent" then
+    pressed = False
+  End If
+End Sub
+
+Sub ShowHideQ(control As IRibbonControl, pressed As Boolean)
+  If pressed Then
+    MsgBox "The toggle button is pressed."
+  Else
+    MsgBox "The toggle button is not pressed."
+  End If
+End Sub

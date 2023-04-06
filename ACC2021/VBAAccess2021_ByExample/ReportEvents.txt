@@ -1,0 +1,25 @@
+Private Sub Report_Close()
+' Close the form.
+
+    Dim strDocName As String
+
+   strDocName = "frmCrossCriteria"
+
+    DoCmd.Close acForm, strDocName
+
+End Sub
+
+Private Sub Report_NoData(Cancel As Integer)
+' Display a message if user enters a date for which there are no records,
+' and don't preview or print report.
+
+    Dim strMsg As String, strTitle As String
+    Dim intStyle As Integer
+    
+    strMsg = "You must enter year."
+    intStyle = vbOKOnly
+    strTitle = "Check Criteria; No Data for current selection"
+    
+    MsgBox strMsg, intStyle, strTitle
+    Cancel = True
+End Sub

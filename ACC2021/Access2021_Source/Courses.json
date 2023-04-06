@@ -1,0 +1,22 @@
+{
+"courses": [
+{
+"courseID": 1001,
+"title": "Access VBA Programming by Example",
+"dateOffered": "September 14",
+"location": "virtual"
+},
+{
+"courseID": 1002,
+"title": "Excel VBA Programming by Example",
+"dateOffered": "September 18",
+"location": "New York, Hilton"
+},
+{
+"courseID": 1003,
+"title": "PowerPoint VBA Programming by Example",
+"dateOffered": "December 5-7",
+"location": "Unspecified"
+}
+]
+}

@@ -1,0 +1,62 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui"
+loadImage="OnLoadImage">
+<ribbon startFromScratch="false">
+<tabs>
+<tab id="custTabEdu" label="Edu Systems">
+<group id="StudGroup" label="Students">
+<button id="btnNewStud" imageMso="RecordsAddFromOutlook"
+size="large" label="Add Student"
+screentip="Add Student" supertip="Enter new student information" 
+onAction="RibbonLib.OpenStudentDetails" />
+<button id="btnViewAllStud" imageMso="ShowDetailsPage"
+size="large" label="View Students"
+screentip="View Students"
+supertip="View Current Students"
+onAction="RibbonLib.OpenStudentList" />
+</group>
+<group id="ToolsGroup" label="Special Commands">
+<button idMso="FilePrintQuick" size="normal" />
+<button idMso="FileSendAsAttachment" size="normal" />
+</group>
+<group id="ImagesGroup" label="Special Features">
+<button id="btnNotes" label="Open Notepad"
+image="Note.gif" size="large"
+onAction="OpenNotepad" />
+<button id="btnComputer" label="Computer Folder"
+image="MyFolder.gif" size="normal" />
+<button id="btnRedStar" label="Honor Student"
+getImage="OnGetImage" size="large" />
+<gallery id="glHolidays" label="Holidays" columns="3" rows="4"
+getImage="OnGetImage" getItemCount="OnGetItemCount" 
+getItemLabel="OnGetItemLabel" getItemImage="OnGetItemImage"
+getItemID="onGetItemID" onAction="onSelectedItem" />
+<toggleButton id="tglNewStudent" label="New Student Questionnaire"
+size="normal" getPressed="OnGetPressed" onAction="ShowHideQ" />
+</group>
+<group id="OtherControlsGroup" label="Other Controls" >
+<splitButton id="btnSplit1" size="large" >
+<button id="btnImport" label="Import More" imageMso="ImportAccess" />
+<menu id="mnuImport" label="More Import Formats" itemSize="normal" >
+<menuSeparator id="mnuDiv1" title="Other Databases" />
+<button id="btnImportODBC" label="ODBC database" imageMso="ImportOdbcDatabase" />
+<button id="btnImportDbase" label="Dbase file" imageMso="ImportDBase" />
+<button id="btnImportParadox" label="Paradox file" imageMso="ImportParadox" />
+<menuSeparator id="mnuDiv2" title="Spreadsheet Files" />
+<menu id="mnuExcel" label="Excel File Formats" imageMso="ImportExcel" itemSize="normal" >
+<checkBox id="xlsFormat" label="xls file" />
+<checkBox id="xlsxFormat" label="xlsx file" />
+</menu>
+<button id="btnImportLotus" label="Lotus 1-2-3 file" imageMso="ImportLotus" />
+<menuSeparator id="mnuDiv3" title="Other Files" />
+<button id="btnText" label="Text file" imageMso="ImportTextFile" />
+<button id="btnXML" label="XML file" imageMso="ImportXmlFile" />
+<button id="btnHTML" label="HTML file" imageMso="ImportHtmlDocument" />
+<button id="btnOutlook" label="Outlook folder" imageMso="ImportOutlook" />
+<button id="btnSharepoint" label="SharePoint List" imageMso="ImportSharePointList" />
+</menu>
+</splitButton>
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>

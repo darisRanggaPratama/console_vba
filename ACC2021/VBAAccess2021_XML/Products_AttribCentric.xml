@@ -1,0 +1,183 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly'>
+		<s:AttributeType name='SupplierIDs' rs:number='1' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='ID' rs:number='2' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='ProductCode' rs:number='3' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='ProductName' rs:number='4' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='StandardCost' rs:number='5' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='ListPrice' rs:number='6' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='ReorderLevel' rs:number='7' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='TargetLevel' rs:number='8' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='QuantityPerUnit' rs:number='9' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='Discontinued' rs:number='10' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='MinReorderQuantity' rs:number='11' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='Category' rs:number='12' rs:nullable='true' rs:maydefer='true'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row SupplierIDs='1' ID='1' ProductCode='NWTB-1' ProductName='Northwind Traders Chai' StandardCost='13.5'
+		 ListPrice='18' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='10 boxes x 20 bags' Discontinued='0' MinReorderQuantity='10'
+		 Category='Beverages'/>
+	<z:row SupplierIDs='2' ID='3' ProductCode='NWTCO-3' ProductName='Northwind Traders Syrup' StandardCost='7.5'
+		 ListPrice='10' ReorderLevel='25' TargetLevel='100' QuantityPerUnit='12 - 550 ml bottles' Discontinued='0' MinReorderQuantity='25'
+		 Category='Condiments'/>
+	<z:row SupplierIDs='3' ID='4' ProductCode='NWTCO-4' ProductName='Northwind Traders Cajun Seasoning' StandardCost='16.5'
+		 ListPrice='22' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='48 - 6 oz jars' Discontinued='0' MinReorderQuantity='10'
+		 Category='Condiments'/>
+	<z:row SupplierIDs='4' ID='5' ProductCode='NWTO-5' ProductName='Northwind Traders Olive Oil' StandardCost='16.0125'
+		 ListPrice='21.35' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='36 boxes' Discontinued='0' MinReorderQuantity='10'
+		 Category='Oil'/>
+	<z:row SupplierIDs='5' ID='6' ProductCode='NWTJP-6' ProductName='Northwind Traders Boysenberry Spread' StandardCost='18.75'
+		 ListPrice='25' ReorderLevel='25' TargetLevel='100' QuantityPerUnit='12 - 8 oz jars' Discontinued='0' MinReorderQuantity='25'
+		 Category='Jams, Preserves'/>
+	<z:row SupplierIDs='6' ID='7' ProductCode='NWTDFN-7' ProductName='Northwind Traders Dried Pears' StandardCost='22.5'
+		 ListPrice='30' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='12 - 1 lb pkgs.' Discontinued='0' MinReorderQuantity='10'
+		 Category='Dried Fruit &#x26; Nuts'/>
+	<z:row SupplierIDs='7' ID='8' ProductCode='NWTS-8' ProductName='Northwind Traders Curry Sauce' StandardCost='30'
+		 ListPrice='40' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='12 - 12 oz jars' Discontinued='0' MinReorderQuantity='10'
+		 Category='Sauces'/>
+	<z:row SupplierIDs='8' ID='14' ProductCode='NWTDFN-14' ProductName='Northwind Traders Walnuts' StandardCost='17.4375'
+		 ListPrice='23.25' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='40 - 100 g pkgs.' Discontinued='0' MinReorderQuantity='10'
+		 Category='Dried Fruit &#x26; Nuts'/>
+	<z:row SupplierIDs='9' ID='17' ProductCode='NWTCFV-17' ProductName='Northwind Traders Fruit Cocktail' StandardCost='29.25'
+		 ListPrice='39' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='15.25 OZ' Discontinued='0' MinReorderQuantity='10'
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='10' ID='19' ProductCode='NWTBGM-19' ProductName='Northwind Traders Chocolate Biscuits Mix'
+		 StandardCost='6.9' ListPrice='9.2' ReorderLevel='5' TargetLevel='20' QuantityPerUnit='10 boxes x 12 pieces' Discontinued='0'
+		 MinReorderQuantity='5' Category='Baked Goods &#x26; Mixes'/>
+	<z:row SupplierIDs='11' ID='20' ProductCode='NWTJP-6' ProductName='Northwind Traders Marmalade' StandardCost='60.75'
+		 ListPrice='81' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='30 gift boxes' Discontinued='0' MinReorderQuantity='10'
+		 Category='Jams, Preserves'/>
+	<z:row SupplierIDs='12' ID='21' ProductCode='NWTBGM-21' ProductName='Northwind Traders Scones' StandardCost='7.5'
+		 ListPrice='10' ReorderLevel='5' TargetLevel='20' QuantityPerUnit='24 pkgs. x 4 pieces' Discontinued='0' MinReorderQuantity='5'
+		 Category='Baked Goods &#x26; Mixes'/>
+	<z:row SupplierIDs='13' ID='34' ProductCode='NWTB-34' ProductName='Northwind Traders Beer' StandardCost='10.5'
+		 ListPrice='14' ReorderLevel='15' TargetLevel='60' QuantityPerUnit='24 - 12 oz bottles' Discontinued='0' MinReorderQuantity='15'
+		 Category='Beverages'/>
+	<z:row SupplierIDs='14' ID='40' ProductCode='NWTCM-40' ProductName='Northwind Traders Crab Meat' StandardCost='13.8'
+		 ListPrice='18.4' ReorderLevel='30' TargetLevel='120' QuantityPerUnit='24 - 4 oz tins' Discontinued='0' MinReorderQuantity='30'
+		 Category='Canned Meat'/>
+	<z:row SupplierIDs='15' ID='41' ProductCode='NWTSO-41' ProductName='Northwind Traders Clam Chowder' StandardCost='7.2375'
+		 ListPrice='9.65' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='12 - 12 oz cans' Discontinued='0' MinReorderQuantity='10'
+		 Category='Soups'/>
+	<z:row SupplierIDs='16' ID='43' ProductCode='NWTB-43' ProductName='Northwind Traders Coffee' StandardCost='34.5'
+		 ListPrice='46' ReorderLevel='25' TargetLevel='100' QuantityPerUnit='16 - 500 g tins' Discontinued='0' MinReorderQuantity='25'
+		 Category='Beverages'/>
+	<z:row SupplierIDs='17' ID='48' ProductCode='NWTCA-48' ProductName='Northwind Traders Chocolate' StandardCost='9.5625'
+		 ListPrice='12.75' ReorderLevel='25' TargetLevel='100' QuantityPerUnit='10 pkgs' Discontinued='0' MinReorderQuantity='25'
+		 Category='Candy'/>
+	<z:row SupplierIDs='18' ID='51' ProductCode='NWTDFN-51' ProductName='Northwind Traders Dried Apples' StandardCost='39.75'
+		 ListPrice='53' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='50 - 300 g pkgs.' Discontinued='0' MinReorderQuantity='10'
+		 Category='Dried Fruit &#x26; Nuts'/>
+	<z:row SupplierIDs='19' ID='52' ProductCode='NWTG-52' ProductName='Northwind Traders Long Grain Rice' StandardCost='5.25'
+		 ListPrice='7' ReorderLevel='25' TargetLevel='100' QuantityPerUnit='16 - 2 kg boxes' Discontinued='0' MinReorderQuantity='25'
+		 Category='Grains'/>
+	<z:row SupplierIDs='20' ID='56' ProductCode='NWTP-56' ProductName='Northwind Traders Gnocchi' StandardCost='28.5'
+		 ListPrice='38' ReorderLevel='30' TargetLevel='120' QuantityPerUnit='24 - 250 g pkgs.' Discontinued='0' MinReorderQuantity='30'
+		 Category='Pasta'/>
+	<z:row SupplierIDs='21' ID='57' ProductCode='NWTP-57' ProductName='Northwind Traders Ravioli' StandardCost='14.625'
+		 ListPrice='19.5' ReorderLevel='20' TargetLevel='80' QuantityPerUnit='24 - 250 g pkgs.' Discontinued='0' MinReorderQuantity='20'
+		 Category='Pasta'/>
+	<z:row SupplierIDs='22' ID='65' ProductCode='NWTS-65' ProductName='Northwind Traders Hot Pepper Sauce' StandardCost='15.7875'
+		 ListPrice='21.05' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='32 - 8 oz bottles' Discontinued='0' MinReorderQuantity='10'
+		 Category='Sauces'/>
+	<z:row SupplierIDs='23' ID='66' ProductCode='NWTS-66' ProductName='Northwind Traders Tomato Sauce' StandardCost='12.75'
+		 ListPrice='17' ReorderLevel='20' TargetLevel='80' QuantityPerUnit='24 - 8 oz jars' Discontinued='0' MinReorderQuantity='20'
+		 Category='Sauces'/>
+	<z:row SupplierIDs='24' ID='72' ProductCode='NWTD-72' ProductName='Northwind Traders Mozzarella' StandardCost='26.1'
+		 ListPrice='34.8' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='24 - 200 g pkgs.' Discontinued='0' MinReorderQuantity='10'
+		 Category='Dairy Products'/>
+	<z:row SupplierIDs='25' ID='74' ProductCode='NWTDFN-74' ProductName='Northwind Traders Almonds' StandardCost='7.5'
+		 ListPrice='10' ReorderLevel='5' TargetLevel='20' QuantityPerUnit='5 kg pkg.' Discontinued='0' MinReorderQuantity='5'
+		 Category='Dried Fruit &#x26; Nuts'/>
+	<z:row SupplierIDs='26' ID='77' ProductCode='NWTCO-77' ProductName='Northwind Traders Mustard' StandardCost='9.75'
+		 ListPrice='13' ReorderLevel='15' TargetLevel='60' QuantityPerUnit='12 boxes' Discontinued='0' MinReorderQuantity='15'
+		 Category='Condiments'/>
+	<z:row SupplierIDs='27' ID='80' ProductCode='NWTDFN-80' ProductName='Northwind Traders Dried Plums' StandardCost='3'
+		 ListPrice='3.5' ReorderLevel='50' TargetLevel='75' QuantityPerUnit='1 lb bag' Discontinued='0' MinReorderQuantity='25'
+		 Category='Dried Fruit &#x26; Nuts'/>
+	<z:row SupplierIDs='28' ID='81' ProductCode='NWTB-81' ProductName='Northwind Traders Green Tea' StandardCost='2'
+		 ListPrice='2.99' ReorderLevel='100' TargetLevel='125' QuantityPerUnit='20 bags per box' Discontinued='0' MinReorderQuantity='25'
+		 Category='Beverages'/>
+	<z:row SupplierIDs='29' ID='82' ProductCode='NWTC-82' ProductName='Northwind Traders Granola' StandardCost='2'
+		 ListPrice='4' ReorderLevel='20' TargetLevel='100' QuantityPerUnit=' ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Cereal'/>
+	<z:row SupplierIDs='30' ID='83' ProductCode='NWTCS-83' ProductName='Northwind Traders Potato Chips' StandardCost='0.5'
+		 ListPrice='1.8' ReorderLevel='30' TargetLevel='200' QuantityPerUnit=' ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Chips, Snacks'/>
+	<z:row SupplierIDs='31' ID='85' ProductCode='NWTBGM-85' ProductName='Northwind Traders Brownie Mix' StandardCost='9'
+		 ListPrice='12.49' ReorderLevel='10' TargetLevel='20' QuantityPerUnit='3 boxes' Discontinued='0' MinReorderQuantity='5'
+		 Category='Baked Goods &#x26; Mixes'/>
+	<z:row SupplierIDs='32' ID='86' ProductCode='NWTBGM-86' ProductName='Northwind Traders Cake Mix' StandardCost='10.5'
+		 ListPrice='15.99' ReorderLevel='10' TargetLevel='20' QuantityPerUnit='4 boxes' Discontinued='0' MinReorderQuantity='5'
+		 Category='Baked Goods &#x26; Mixes'/>
+	<z:row SupplierIDs='33' ID='87' ProductCode='NWTB-87' ProductName='Northwind Traders Tea' StandardCost='2' ListPrice='4'
+		 ReorderLevel='20' TargetLevel='50' QuantityPerUnit='100 count per box' Discontinued='0' MinReorderQuantity=' '
+		 Category='Beverages'/>
+	<z:row SupplierIDs='34' ID='88' ProductCode='NWTCFV-88' ProductName='Northwind Traders Pears' StandardCost='1'
+		 ListPrice='1.3' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='15.25 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='35' ID='89' ProductCode='NWTCFV-89' ProductName='Northwind Traders Peaches' StandardCost='1'
+		 ListPrice='1.5' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='15.25 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='36' ID='90' ProductCode='NWTCFV-90' ProductName='Northwind Traders Pineapple' StandardCost='1'
+		 ListPrice='1.8' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='15.25 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='37' ID='91' ProductCode='NWTCFV-91' ProductName='Northwind Traders Cherry Pie Filling' StandardCost='1'
+		 ListPrice='2' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='15.25 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='38' ID='92' ProductCode='NWTCFV-92' ProductName='Northwind Traders Green Beans' StandardCost='1'
+		 ListPrice='1.2' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='14.5 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='39' ID='93' ProductCode='NWTCFV-93' ProductName='Northwind Traders Corn' StandardCost='1'
+		 ListPrice='1.2' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='14.5 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='40' ID='94' ProductCode='NWTCFV-94' ProductName='Northwind Traders Peas' StandardCost='1'
+		 ListPrice='1.5' ReorderLevel='10' TargetLevel='40' QuantityPerUnit='14.5 OZ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Fruit &#x26; Vegetables'/>
+	<z:row SupplierIDs='41' ID='95' ProductCode='NWTCM-95' ProductName='Northwind Traders Tuna Fish' StandardCost='0.5'
+		 ListPrice='2' ReorderLevel='30' TargetLevel='50' QuantityPerUnit='5 oz' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Meat'/>
+	<z:row SupplierIDs='42' ID='96' ProductCode='NWTCM-96' ProductName='Northwind Traders Smoked Salmon' StandardCost='2'
+		 ListPrice='4' ReorderLevel='30' TargetLevel='50' QuantityPerUnit='5 oz' Discontinued='0' MinReorderQuantity=' '
+		 Category='Canned Meat'/>
+	<z:row SupplierIDs='43' ID='97' ProductCode='NWTC-82' ProductName='Northwind Traders Hot Cereal' StandardCost='3'
+		 ListPrice='5' ReorderLevel='50' TargetLevel='200' QuantityPerUnit=' ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Cereal'/>
+	<z:row SupplierIDs='44' ID='98' ProductCode='NWTSO-98' ProductName='Northwind Traders Vegetable Soup' StandardCost='1'
+		 ListPrice='1.89' ReorderLevel='100' TargetLevel='200' QuantityPerUnit=' ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Soups'/>
+	<z:row SupplierIDs='45' ID='99' ProductCode='NWTSO-99' ProductName='Northwind Traders Chicken Soup' StandardCost='1'
+		 ListPrice='1.95' ReorderLevel='100' TargetLevel='200' QuantityPerUnit=' ' Discontinued='0' MinReorderQuantity=' '
+		 Category='Soups'/>
+</rs:data>
+</xml>

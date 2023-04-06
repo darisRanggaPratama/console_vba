@@ -1,0 +1,20 @@
+
+'//////////////////////////////////////////////////////
+' VBA Procedures with CommandBars object
+'////////////////////////////////////////////////////
+
+Sub onGetBitmap(ctl As IRibbonControl, ByRef image)
+  Set image = Application.CommandBars. _
+  GetImageMso("CreateReportFromWizard", 16, 16)
+End Sub
+
+
+Sub DoDefaultPlus(ctl As IRibbonControl)
+  If Application.CurrentObjectName = "Student List" Then
+    Application.CommandBars.ExecuteMso "CreateReportFromWizard"
+  Else
+    MsgBox "To run this Wizard you need to open " & _
+     " the Student List Form", _
+    vbOKOnly + vbInformation, "Action Required"
+  End If
+End Sub

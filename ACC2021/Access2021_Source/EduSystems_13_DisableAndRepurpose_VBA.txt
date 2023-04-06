@@ -1,0 +1,21 @@
+'///////////////////////////////////////////////////////
+'VBA Procedure for Disabling and Repurposing a built-in Control
+'//////////////////////////////////////////////////////
+
+Sub DisableRelations(ctl As IRibbonControl, _
+ ByRef cancelDefault)
+
+  MsgBox "You are not authorized to use this function."
+  cancelDefault = True
+End Sub
+
+Public Sub ShowDbProperties(ctl As IRibbonControl, _
+  ByRef cancelDefault)
+
+  If CurrentProject.AllForms("Student List").IsLoaded Then
+    ' display Database Properties dialog box instead
+    DoCmd.RunCommand acCmdDatabaseProperties
+  Else
+    cancelDefault = False
+  End If
+End Sub

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-11-01T21:30:04">
+<Customers>
+<ID>4</ID>
+<Company>Company D</Company>
+<Last_x0020_Name>Lee</Last_x0020_Name>
+<First_x0020_Name>Christina</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 4th Street</Address>
+<City>New York</City>
+<State_x002F_Province>NY</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+</dataroot>

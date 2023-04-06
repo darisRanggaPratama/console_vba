@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="North_ProdSchema.xsd" generated="2021-11-01T21:25:21">
+<Products>
+<Supplier_x0020_IDs>
+<Value>4</Value>
+</Supplier_x0020_IDs>
+<ID>1</ID>
+<Product_x0020_Code>NWTB-1</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Chai</Product_x0020_Name>
+<Standard_x0020_Cost>13.5</Standard_x0020_Cost>
+<List_x0020_Price>18</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>10 boxes x 20 bags</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Beverages</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>10</Value>
+</Supplier_x0020_IDs>
+<ID>3</ID>
+<Product_x0020_Code>NWTCO-3</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Syrup</Product_x0020_Name>
+<Standard_x0020_Cost>7.5</Standard_x0020_Cost>
+<List_x0020_Price>10</List_x0020_Price>
+<Reorder_x0020_Level>25</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 - 550 ml bottles</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Condiments</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>10</Value>
+</Supplier_x0020_IDs>
+<ID>4</ID>
+<Product_x0020_Code>NWTCO-4</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Cajun Seasoning</Product_x0020_Name>
+<Standard_x0020_Cost>16.5</Standard_x0020_Cost>
+<List_x0020_Price>22</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>48 - 6 oz jars</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Condiments</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>10</Value>
+</Supplier_x0020_IDs>
+<ID>5</ID>
+<Product_x0020_Code>NWTO-5</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Olive Oil</Product_x0020_Name>
+<Standard_x0020_Cost>16.0125</Standard_x0020_Cost>
+<List_x0020_Price>21.35</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>36 boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Oil</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>6</ID>
+<Product_x0020_Code>NWTJP-6</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Boysenberry Spread</Product_x0020_Name>
+<Standard_x0020_Cost>18.75</Standard_x0020_Cost>
+<List_x0020_Price>25</List_x0020_Price>
+<Reorder_x0020_Level>25</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 - 8 oz jars</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Jams, Preserves</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<ID>7</ID>
+<Product_x0020_Code>NWTDFN-7</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Dried Pears</Product_x0020_Name>
+<Standard_x0020_Cost>22.5</Standard_x0020_Cost>
+<List_x0020_Price>30</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 - 1 lb pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dried Fruit &amp; Nuts</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>8</Value>
+</Supplier_x0020_IDs>
+<ID>8</ID>
+<Product_x0020_Code>NWTS-8</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Curry Sauce</Product_x0020_Name>
+<Standard_x0020_Cost>30</Standard_x0020_Cost>
+<List_x0020_Price>40</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 - 12 oz jars</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Sauces</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>14</ID>
+<Product_x0020_Code>NWTDFN-14</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Walnuts</Product_x0020_Name>
+<Standard_x0020_Cost>17.4375</Standard_x0020_Cost>
+<List_x0020_Price>23.25</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>40 - 100 g pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dried Fruit &amp; Nuts</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>17</ID>
+<Product_x0020_Code>NWTCFV-17</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Fruit Cocktail</Product_x0020_Name>
+<Standard_x0020_Cost>29.25</Standard_x0020_Cost>
+<List_x0020_Price>39</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>15.25 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>19</ID>
+<Product_x0020_Code>NWTBGM-19</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Chocolate Biscuits Mix</Product_x0020_Name>
+<Standard_x0020_Cost>6.9</Standard_x0020_Cost>
+<List_x0020_Price>9.2</List_x0020_Price>
+<Reorder_x0020_Level>5</Reorder_x0020_Level>
+<Target_x0020_Level>20</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>10 boxes x 12 pieces</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>5</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Baked Goods &amp; Mixes</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>20</ID>
+<Product_x0020_Code>NWTJP-6</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Marmalade</Product_x0020_Name>
+<Standard_x0020_Cost>60.75</Standard_x0020_Cost>
+<List_x0020_Price>81</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>30 gift boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Jams, Preserves</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>21</ID>
+<Product_x0020_Code>NWTBGM-21</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Scones</Product_x0020_Name>
+<Standard_x0020_Cost>7.5</Standard_x0020_Cost>
+<List_x0020_Price>10</List_x0020_Price>
+<Reorder_x0020_Level>5</Reorder_x0020_Level>
+<Target_x0020_Level>20</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 pkgs. x 4 pieces</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>5</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Baked Goods &amp; Mixes</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>4</Value>
+</Supplier_x0020_IDs>
+<ID>34</ID>
+<Product_x0020_Code>NWTB-34</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Beer</Product_x0020_Name>
+<Standard_x0020_Cost>10.5</Standard_x0020_Cost>
+<List_x0020_Price>14</List_x0020_Price>
+<Reorder_x0020_Level>15</Reorder_x0020_Level>
+<Target_x0020_Level>60</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 12 oz bottles</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>15</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Beverages</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>7</Value>
+</Supplier_x0020_IDs>
+<ID>40</ID>
+<Product_x0020_Code>NWTCM-40</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Crab Meat</Product_x0020_Name>
+<Standard_x0020_Cost>13.8</Standard_x0020_Cost>
+<List_x0020_Price>18.4</List_x0020_Price>
+<Reorder_x0020_Level>30</Reorder_x0020_Level>
+<Target_x0020_Level>120</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 4 oz tins</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>30</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Canned Meat</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>41</ID>
+<Product_x0020_Code>NWTSO-41</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Clam Chowder</Product_x0020_Name>
+<Standard_x0020_Cost>7.2375</Standard_x0020_Cost>
+<List_x0020_Price>9.65</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 - 12 oz cans</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Soups</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>3</Value>
+</Supplier_x0020_IDs>
+<Supplier_x0020_IDs>
+<Value>4</Value>
+</Supplier_x0020_IDs>
+<ID>43</ID>
+<Product_x0020_Code>NWTB-43</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Coffee</Product_x0020_Name>
+<Standard_x0020_Cost>34.5</Standard_x0020_Cost>
+<List_x0020_Price>46</List_x0020_Price>
+<Reorder_x0020_Level>25</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>16 - 500 g tins</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Beverages</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>10</Value>
+</Supplier_x0020_IDs>
+<ID>48</ID>
+<Product_x0020_Code>NWTCA-48</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Chocolate</Product_x0020_Name>
+<Standard_x0020_Cost>9.5625</Standard_x0020_Cost>
+<List_x0020_Price>12.75</List_x0020_Price>
+<Reorder_x0020_Level>25</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>10 pkgs</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Candy</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<ID>51</ID>
+<Product_x0020_Code>NWTDFN-51</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Dried Apples</Product_x0020_Name>
+<Standard_x0020_Cost>39.75</Standard_x0020_Cost>
+<List_x0020_Price>53</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>50 - 300 g pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dried Fruit &amp; Nuts</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>52</ID>
+<Product_x0020_Code>NWTG-52</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Long Grain Rice</Product_x0020_Name>
+<Standard_x0020_Cost>5.25</Standard_x0020_Cost>
+<List_x0020_Price>7</List_x0020_Price>
+<Reorder_x0020_Level>25</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>16 - 2 kg boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Grains</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>56</ID>
+<Product_x0020_Code>NWTP-56</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Gnocchi</Product_x0020_Name>
+<Standard_x0020_Cost>28.5</Standard_x0020_Cost>
+<List_x0020_Price>38</List_x0020_Price>
+<Reorder_x0020_Level>30</Reorder_x0020_Level>
+<Target_x0020_Level>120</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 250 g pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>30</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Pasta</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>57</ID>
+<Product_x0020_Code>NWTP-57</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Ravioli</Product_x0020_Name>
+<Standard_x0020_Cost>14.625</Standard_x0020_Cost>
+<List_x0020_Price>19.5</List_x0020_Price>
+<Reorder_x0020_Level>20</Reorder_x0020_Level>
+<Target_x0020_Level>80</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 250 g pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>20</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Pasta</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>8</Value>
+</Supplier_x0020_IDs>
+<ID>65</ID>
+<Product_x0020_Code>NWTS-65</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Hot Pepper Sauce</Product_x0020_Name>
+<Standard_x0020_Cost>15.7875</Standard_x0020_Cost>
+<List_x0020_Price>21.05</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>32 - 8 oz bottles</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Sauces</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>8</Value>
+</Supplier_x0020_IDs>
+<ID>66</ID>
+<Product_x0020_Code>NWTS-66</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Tomato Sauce</Product_x0020_Name>
+<Standard_x0020_Cost>12.75</Standard_x0020_Cost>
+<List_x0020_Price>17</List_x0020_Price>
+<Reorder_x0020_Level>20</Reorder_x0020_Level>
+<Target_x0020_Level>80</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 8 oz jars</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>20</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Sauces</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>5</Value>
+</Supplier_x0020_IDs>
+<ID>72</ID>
+<Product_x0020_Code>NWTD-72</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Mozzarella</Product_x0020_Name>
+<Standard_x0020_Cost>26.1</Standard_x0020_Cost>
+<List_x0020_Price>34.8</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>24 - 200 g pkgs.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>10</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dairy Products</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>74</ID>
+<Product_x0020_Code>NWTDFN-74</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Almonds</Product_x0020_Name>
+<Standard_x0020_Cost>7.5</Standard_x0020_Cost>
+<List_x0020_Price>10</List_x0020_Price>
+<Reorder_x0020_Level>5</Reorder_x0020_Level>
+<Target_x0020_Level>20</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>5 kg pkg.</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>5</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dried Fruit &amp; Nuts</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>10</Value>
+</Supplier_x0020_IDs>
+<ID>77</ID>
+<Product_x0020_Code>NWTCO-77</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Mustard</Product_x0020_Name>
+<Standard_x0020_Cost>9.75</Standard_x0020_Cost>
+<List_x0020_Price>13</List_x0020_Price>
+<Reorder_x0020_Level>15</Reorder_x0020_Level>
+<Target_x0020_Level>60</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>12 boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>15</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Condiments</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>2</Value>
+</Supplier_x0020_IDs>
+<ID>80</ID>
+<Product_x0020_Code>NWTDFN-80</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Dried Plums</Product_x0020_Name>
+<Standard_x0020_Cost>3</Standard_x0020_Cost>
+<List_x0020_Price>3.5</List_x0020_Price>
+<Reorder_x0020_Level>50</Reorder_x0020_Level>
+<Target_x0020_Level>75</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>1 lb bag</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Dried Fruit &amp; Nuts</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>3</Value>
+</Supplier_x0020_IDs>
+<ID>81</ID>
+<Product_x0020_Code>NWTB-81</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Green Tea</Product_x0020_Name>
+<Standard_x0020_Cost>2</Standard_x0020_Cost>
+<List_x0020_Price>2.99</List_x0020_Price>
+<Reorder_x0020_Level>100</Reorder_x0020_Level>
+<Target_x0020_Level>125</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>20 bags per box</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>25</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Beverages</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>82</ID>
+<Product_x0020_Code>NWTC-82</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Granola</Product_x0020_Name>
+<Standard_x0020_Cost>2</Standard_x0020_Cost>
+<List_x0020_Price>4</List_x0020_Price>
+<Reorder_x0020_Level>20</Reorder_x0020_Level>
+<Target_x0020_Level>100</Target_x0020_Level>
+<Discontinued>0</Discontinued>
+<Category>Cereal</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>9</Value>
+</Supplier_x0020_IDs>
+<ID>83</ID>
+<Product_x0020_Code>NWTCS-83</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Potato Chips</Product_x0020_Name>
+<Standard_x0020_Cost>0.5</Standard_x0020_Cost>
+<List_x0020_Price>1.8</List_x0020_Price>
+<Reorder_x0020_Level>30</Reorder_x0020_Level>
+<Target_x0020_Level>200</Target_x0020_Level>
+<Discontinued>0</Discontinued>
+<Category>Chips, Snacks</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>85</ID>
+<Product_x0020_Code>NWTBGM-85</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Brownie Mix</Product_x0020_Name>
+<Standard_x0020_Cost>9</Standard_x0020_Cost>
+<List_x0020_Price>12.49</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>20</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>3 boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>5</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Baked Goods &amp; Mixes</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>86</ID>
+<Product_x0020_Code>NWTBGM-86</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Cake Mix</Product_x0020_Name>
+<Standard_x0020_Cost>10.5</Standard_x0020_Cost>
+<List_x0020_Price>15.99</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>20</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>4 boxes</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Minimum_x0020_Reorder_x0020_Quantity>5</Minimum_x0020_Reorder_x0020_Quantity>
+<Category>Baked Goods &amp; Mixes</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>7</Value>
+</Supplier_x0020_IDs>
+<ID>87</ID>
+<Product_x0020_Code>NWTB-87</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Tea</Product_x0020_Name>
+<Standard_x0020_Cost>2</Standard_x0020_Cost>
+<List_x0020_Price>4</List_x0020_Price>
+<Reorder_x0020_Level>20</Reorder_x0020_Level>
+<Target_x0020_Level>50</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>100 count per box</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Beverages</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>88</ID>
+<Product_x0020_Code>NWTCFV-88</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Pears</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.3</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>15.25 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>89</ID>
+<Product_x0020_Code>NWTCFV-89</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Peaches</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.5</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>15.25 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>90</ID>
+<Product_x0020_Code>NWTCFV-90</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Pineapple</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.8</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>15.25 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>91</ID>
+<Product_x0020_Code>NWTCFV-91</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Cherry Pie Filling</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>2</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>15.25 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>92</ID>
+<Product_x0020_Code>NWTCFV-92</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Green Beans</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.2</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>14.5 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>93</ID>
+<Product_x0020_Code>NWTCFV-93</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Corn</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.2</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>14.5 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>94</ID>
+<Product_x0020_Code>NWTCFV-94</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Peas</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.5</List_x0020_Price>
+<Reorder_x0020_Level>10</Reorder_x0020_Level>
+<Target_x0020_Level>40</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>14.5 OZ</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Fruit &amp; Vegetables</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>7</Value>
+</Supplier_x0020_IDs>
+<ID>95</ID>
+<Product_x0020_Code>NWTCM-95</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Tuna Fish</Product_x0020_Name>
+<Standard_x0020_Cost>0.5</Standard_x0020_Cost>
+<List_x0020_Price>2</List_x0020_Price>
+<Reorder_x0020_Level>30</Reorder_x0020_Level>
+<Target_x0020_Level>50</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>5 oz</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Meat</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>7</Value>
+</Supplier_x0020_IDs>
+<ID>96</ID>
+<Product_x0020_Code>NWTCM-96</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Smoked Salmon</Product_x0020_Name>
+<Standard_x0020_Cost>2</Standard_x0020_Cost>
+<List_x0020_Price>4</List_x0020_Price>
+<Reorder_x0020_Level>30</Reorder_x0020_Level>
+<Target_x0020_Level>50</Target_x0020_Level>
+<Quantity_x0020_Per_x0020_Unit>5 oz</Quantity_x0020_Per_x0020_Unit>
+<Discontinued>0</Discontinued>
+<Category>Canned Meat</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>1</Value>
+</Supplier_x0020_IDs>
+<ID>97</ID>
+<Product_x0020_Code>NWTC-82</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Hot Cereal</Product_x0020_Name>
+<Standard_x0020_Cost>3</Standard_x0020_Cost>
+<List_x0020_Price>5</List_x0020_Price>
+<Reorder_x0020_Level>50</Reorder_x0020_Level>
+<Target_x0020_Level>200</Target_x0020_Level>
+<Discontinued>0</Discontinued>
+<Category>Cereal</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>98</ID>
+<Product_x0020_Code>NWTSO-98</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Vegetable Soup</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.89</List_x0020_Price>
+<Reorder_x0020_Level>100</Reorder_x0020_Level>
+<Target_x0020_Level>200</Target_x0020_Level>
+<Discontinued>0</Discontinued>
+<Category>Soups</Category>
+</Products>
+<Products>
+<Supplier_x0020_IDs>
+<Value>6</Value>
+</Supplier_x0020_IDs>
+<ID>99</ID>
+<Product_x0020_Code>NWTSO-99</Product_x0020_Code>
+<Product_x0020_Name>Northwind Traders Chicken Soup</Product_x0020_Name>
+<Standard_x0020_Cost>1</Standard_x0020_Cost>
+<List_x0020_Price>1.95</List_x0020_Price>
+<Reorder_x0020_Level>100</Reorder_x0020_Level>
+<Target_x0020_Level>200</Target_x0020_Level>
+<Discontinued>0</Discontinued>
+<Category>Soups</Category>
+</Products>
+</dataroot>

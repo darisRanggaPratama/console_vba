@@ -1,0 +1,25 @@
+
+'-------------------------------------------------------------
+' Linking a dBASE table to the current database
+' code not included in the book
+'-------------------------------------------------------------
+
+Sub LinkDBaseTable_DAO()
+  Dim db As DAO.Database
+  Dim myTable As DAO.TableDef
+
+  On Error GoTo err_LinkDbaseTable
+
+  Set db = CurrentDb
+  Set myTable = db.CreateTableDef("TableDBASE")
+
+  myTable.Connect = "dBase 5.0;Database=C:\VBAAccess2021_ByExample"
+  myTable.SourceTableName = "Customer.dbf"
+
+  db.TableDefs.Append myTable
+  
+  MsgBox "dBase table has been successfully linked."
+  Exit Sub
+err_LinkDbaseTable:
+  MsgBox Err.Number & ": " & Err.Description
+End Sub

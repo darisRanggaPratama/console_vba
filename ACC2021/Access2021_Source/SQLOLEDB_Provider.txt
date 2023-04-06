@@ -1,0 +1,49 @@
+Hands-On 12.10. Connecting to an SQL Server Database Using SQLOLEDB Provider
+
+Note:  To try out this procedure, modify the connection information in the connection string to connect to the SQL Server database you have access to.
+
+
+1.In the Visual Basic Editor window, choose Insert | Module.
+2.In the module’s Code window, type the following ConnectToSQL_SQLOLEDB procedure: 
+
+Sub ConnectToSQL_SQLOLEDB()
+  Dim conn As ADODB.Connection
+  
+  Set conn = New ADODB.Connection
+  ' Modify the connection information
+
+  With conn
+    .Provider = "SQLOLEDB"
+    .ConnectionString = "Data Source=Mozartv4;" & _
+     "database=Musicians; UserId=sa; Password=;"
+    .Open
+  End With
+
+  If conn.State = adStateOpen Then
+    MsgBox "Connection was established."
+  End If
+
+  conn.Close
+  Set conn = Nothing
+End Sub
+
+3.	Choose Run | Run Sub/UserForm to execute the procedure.
+In the ConnectToSQL_SQLOLEDB procedure, the Connection object’s Provider property is set to SQLOLEDB, and the ConnectionString property includes a server name, database name, user ID, and password information.
+The following VBA procedure uses the ODBC DSN-less connection to an SQL Server database:
+
+Sub Connect_ToSQLServer()
+  Dim conn As ADODB.Connection
+
+  Set conn = New ADODB.Connection
+  With conn
+    ' DSN-less connection using the ODBC driver
+    ' (modify the data source information below)
+    .Open "Driver={SQL Server};" & _
+     "Server=11.22.17.153;" & _
+     "UID=myId;" & _
+     "PWD=myPassword;" & _
+     "Database=SupportDb"
+    .Close
+  End With
+  Set conn = Nothing
+End Sub

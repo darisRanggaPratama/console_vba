@@ -1,0 +1,21 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+	<tabs>
+	<tab id="custTabEdu" label="Edu Systems">
+	<group id="StudGroup" label="Students">
+	<button id="btnNewStud" imageMso="RecordsAddFromOutlook"
+	size="large" label="Add Student" screentip="Add Student" 
+	supertip="Enter new student information"
+	onAction="OpenFrm" tag="Student Details" />
+	<button id="btnViewAllStud" imageMso="ShowDetailsPage"
+	size="large" label="View Students" screentip="View Students" 
+	supertip="View Current Students" onAction="OpenFrm" tag="Student List" />
+	</group>
+	<group id="ToolsGroup" label="Special Commands">
+	<button idMso="FilePrintQuick" size="normal" />
+	<button idMso="FileSendAsAttachment" size="normal" />
+	</group>
+	</tab>
+	</tabs>
+	</ribbon>
+</customUI>

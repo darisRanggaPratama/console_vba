@@ -1,0 +1,21 @@
+
+'----------------------------------------------------------------
+' Use the Properties Collection of the DAO TableDef object
+' code not included in the book
+'----------------------------------------------------------------
+
+Sub List_TableProperties_DAO()
+Dim prp As DAO.Property
+Dim tdf As DAO.TableDef
+Dim db As DAO.Database
+
+Set db = CurrentDb
+Set tdf = db.TableDefs("Agents")
+
+For Each prp in tdf.Properties
+  On Error Resume Next
+  Debug.Print prp.Name & ": " & prp.Value
+Next
+MsgBox "Finished Processing."
+
+End Sub

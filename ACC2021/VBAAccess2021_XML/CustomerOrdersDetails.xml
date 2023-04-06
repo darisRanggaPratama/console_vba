@@ -1,0 +1,1928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2021-11-01T22:12:00">
+<Customers>
+<ID>1</ID>
+<Company>Company A</Company>
+<Last_x0020_Name>Bedecs</Last_x0020_Name>
+<First_x0020_Name>Anna</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 1st Street</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>44</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>1</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-24T00:00:00</Order_x0020_Date>
+<Ship_x0020_Name>Anna Bedecs</Ship_x0020_Name>
+<Ship_x0020_Address>123 1st Street</Ship_x0020_Address>
+<Ship_x0020_City>Seattle</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WA</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>71</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>1</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Anna Bedecs</Ship_x0020_Name>
+<Ship_x0020_Address>123 1st Street</Ship_x0020_Address>
+<Ship_x0020_City>Seattle</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WA</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>2</ID>
+<Company>Company B</Company>
+<Last_x0020_Name>Gratacos Solsona</Last_x0020_Name>
+<First_x0020_Name>Antonio</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 2nd Street</Address>
+<City>Boston</City>
+<State_x002F_Province>MA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>3</ID>
+<Company>Company C</Company>
+<Last_x0020_Name>Axen</Last_x0020_Name>
+<First_x0020_Name>Thomas</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 3rd Street</Address>
+<City>Los Angelas</City>
+<State_x002F_Province>CA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>36</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>3</Customer_x0020_ID>
+<Order_x0020_Date>2006-02-23T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-02-25T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Thomas Axen</Ship_x0020_Name>
+<Ship_x0020_Address>123 3rd Street</Ship_x0020_Address>
+<Ship_x0020_City>Los Angelas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CA</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>7</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Cash</Payment_x0020_Type>
+<Paid_x0020_Date>2006-02-23T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>63</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>3</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-25T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-25T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Thomas Axen</Ship_x0020_Name>
+<Ship_x0020_Address>123 3rd Street</Ship_x0020_Address>
+<Ship_x0020_City>Los Angelas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CA</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>7</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Cash</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-25T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>81</Order_x0020_ID>
+<Employee_x0020_ID>2</Employee_x0020_ID>
+<Customer_x0020_ID>3</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-25T17:26:53</Order_x0020_Date>
+<Ship_x0020_Name>Thomas Axen</Ship_x0020_Name>
+<Ship_x0020_Address>123 3rd Street</Ship_x0020_Address>
+<Ship_x0020_City>Los Angelas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CA</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>4</ID>
+<Company>Company D</Company>
+<Last_x0020_Name>Lee</Last_x0020_Name>
+<First_x0020_Name>Christina</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 4th Street</Address>
+<City>New York</City>
+<State_x002F_Province>NY</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>31</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>4</Customer_x0020_ID>
+<Order_x0020_Date>2006-01-20T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-01-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Christina Lee</Ship_x0020_Name>
+<Ship_x0020_Address>123 4th Street</Ship_x0020_Address>
+<Ship_x0020_City>New York</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NY</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-01-20T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>34</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>4</Customer_x0020_ID>
+<Order_x0020_Date>2006-02-06T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-02-07T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Christina Lee</Ship_x0020_Name>
+<Ship_x0020_Address>123 4th Street</Ship_x0020_Address>
+<Ship_x0020_City>New York</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NY</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>4</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-02-06T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>58</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>4</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-22T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Christina Lee</Ship_x0020_Name>
+<Ship_x0020_Address>123 4th Street</Ship_x0020_Address>
+<Ship_x0020_City>New York</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NY</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-22T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>61</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>4</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-07T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-07T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Christina Lee</Ship_x0020_Name>
+<Ship_x0020_Address>123 4th Street</Ship_x0020_Address>
+<Ship_x0020_City>New York</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NY</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>4</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-07T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>80</Order_x0020_ID>
+<Employee_x0020_ID>2</Employee_x0020_ID>
+<Customer_x0020_ID>4</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-25T17:03:55</Order_x0020_Date>
+<Ship_x0020_Name>Christina Lee</Ship_x0020_Name>
+<Ship_x0020_Address>123 4th Street</Ship_x0020_Address>
+<Ship_x0020_City>New York</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NY</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>5</ID>
+<Company>Company E</Company>
+<Last_x0020_Name>O’Donnell</Last_x0020_Name>
+<First_x0020_Name>Martin</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 5th Street</Address>
+<City>Minneapolis</City>
+<State_x002F_Province>MN</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>6</ID>
+<Company>Company F</Company>
+<Last_x0020_Name>Pérez-Olaeta</Last_x0020_Name>
+<First_x0020_Name>Francisco</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 6th Street</Address>
+<City>Milwaukee</City>
+<State_x002F_Province>WI</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>37</Order_x0020_ID>
+<Employee_x0020_ID>8</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-06T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-03-09T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>12</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-03-06T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>47</Order_x0020_ID>
+<Employee_x0020_ID>6</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-08T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-08T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>300</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-08T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>56</Order_x0020_ID>
+<Employee_x0020_ID>2</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-03T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-03T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-03T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>64</Order_x0020_ID>
+<Employee_x0020_ID>8</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-09T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-05-09T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>12</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-05-09T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>74</Order_x0020_ID>
+<Employee_x0020_ID>6</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-08T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-08T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>300</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-08T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>79</Order_x0020_ID>
+<Employee_x0020_ID>2</Employee_x0020_ID>
+<Customer_x0020_ID>6</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-23T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-23T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Francisco Pérez-Olaeta</Ship_x0020_Name>
+<Ship_x0020_Address>123 6th Street</Ship_x0020_Address>
+<Ship_x0020_City>Milwaukee</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>WI</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-23T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>7</ID>
+<Company>Company G</Company>
+<Last_x0020_Name>Xie</Last_x0020_Name>
+<First_x0020_Name>Ming-Yang</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 7th Street</Address>
+<City>Boise</City>
+<State_x002F_Province>ID</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>41</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>7</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-24T00:00:00</Order_x0020_Date>
+<Ship_x0020_Name>Ming-Yang Xie</Ship_x0020_Name>
+<Ship_x0020_Address>123 7th Street</Ship_x0020_Address>
+<Ship_x0020_City>Boise</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>ID</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>68</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>7</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Ship_x0020_Name>Ming-Yang Xie</Ship_x0020_Name>
+<Ship_x0020_Address>123 7th Street</Ship_x0020_Address>
+<Ship_x0020_City>Boise</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>ID</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>8</ID>
+<Company>Company H</Company>
+<Last_x0020_Name>Andersen</Last_x0020_Name>
+<First_x0020_Name>Elizabeth</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 8th Street</Address>
+<City>Portland</City>
+<State_x002F_Province>OR</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>33</Order_x0020_ID>
+<Employee_x0020_ID>6</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-01-30T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-01-31T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>50</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-01-30T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>39</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-22T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-03-24T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-03-22T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>48</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>50</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>60</Order_x0020_ID>
+<Employee_x0020_ID>6</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-30T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-30T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>50</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-30T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>66</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-05-24T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-05-24T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>75</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>8</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Elizabeth Andersen</Ship_x0020_Name>
+<Ship_x0020_Address>123 8th Street</Ship_x0020_Address>
+<Ship_x0020_City>Portland</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>OR</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>50</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>9</ID>
+<Company>Company I</Company>
+<Last_x0020_Name>Mortensen</Last_x0020_Name>
+<First_x0020_Name>Sven</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 9th Street</Address>
+<City>Salt Lake City</City>
+<State_x002F_Province>UT</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>46</Order_x0020_ID>
+<Employee_x0020_ID>7</Employee_x0020_ID>
+<Customer_x0020_ID>9</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Sven Mortensen</Ship_x0020_Name>
+<Ship_x0020_Address>123 9th Street</Ship_x0020_Address>
+<Ship_x0020_City>Salt Lake City</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>UT</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>100</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>73</Order_x0020_ID>
+<Employee_x0020_ID>7</Employee_x0020_ID>
+<Customer_x0020_ID>9</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Sven Mortensen</Ship_x0020_Name>
+<Ship_x0020_Address>123 9th Street</Ship_x0020_Address>
+<Ship_x0020_City>Salt Lake City</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>UT</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>100</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>10</ID>
+<Company>Company J</Company>
+<Last_x0020_Name>Wacker</Last_x0020_Name>
+<First_x0020_Name>Roland</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 10th Street</Address>
+<City>Chicago</City>
+<State_x002F_Province>IL</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>40</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>10</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-24T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-03-24T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Roland Wacker</Ship_x0020_Name>
+<Ship_x0020_Address>123 10th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>9</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-03-24T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>42</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>10</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-24T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-07T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Roland Wacker</Ship_x0020_Name>
+<Ship_x0020_Address>123 10th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>2</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>67</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>10</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-05-24T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Roland Wacker</Ship_x0020_Name>
+<Ship_x0020_Address>123 10th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>9</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-05-24T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>69</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>10</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>Roland Wacker</Ship_x0020_Name>
+<Ship_x0020_Address>123 10th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>11</ID>
+<Company>Company K</Company>
+<Last_x0020_Name>Krschne</Last_x0020_Name>
+<First_x0020_Name>Peter</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 11th Street</Address>
+<City>Miami</City>
+<State_x002F_Province>FL</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>43</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>11</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-24T00:00:00</Order_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Peter Krschne</Ship_x0020_Name>
+<Ship_x0020_Address>123 11th Street</Ship_x0020_Address>
+<Ship_x0020_City>Miami</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>FL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>70</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>11</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-24T00:00:00</Order_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Peter Krschne</Ship_x0020_Name>
+<Ship_x0020_Address>123 11th Street</Ship_x0020_Address>
+<Ship_x0020_City>Miami</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>FL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>0</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>12</ID>
+<Company>Company L</Company>
+<Last_x0020_Name>Edwards</Last_x0020_Name>
+<First_x0020_Name>John</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>123 12th Street</Address>
+<City>Las Vegas</City>
+<State_x002F_Province>NV</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>32</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>12</Customer_x0020_ID>
+<Order_x0020_Date>2006-01-22T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-01-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>John Edwards</Ship_x0020_Name>
+<Ship_x0020_Address>123 12th Street</Ship_x0020_Address>
+<Ship_x0020_City>Las Vegas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NV</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-01-22T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>59</Order_x0020_ID>
+<Employee_x0020_ID>4</Employee_x0020_ID>
+<Customer_x0020_ID>12</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-22T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>John Edwards</Ship_x0020_Name>
+<Ship_x0020_Address>123 12th Street</Ship_x0020_Address>
+<Ship_x0020_City>Las Vegas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NV</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-22T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>13</ID>
+<Company>Company M</Company>
+<Last_x0020_Name>Ludick</Last_x0020_Name>
+<First_x0020_Name>Andre</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 13th Street</Address>
+<City>Memphis</City>
+<State_x002F_Province>TN</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>14</ID>
+<Company>Company N</Company>
+<Last_x0020_Name>Grilo</Last_x0020_Name>
+<First_x0020_Name>Carlos</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 14th Street</Address>
+<City>Denver</City>
+<State_x002F_Province>CO</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>15</ID>
+<Company>Company O</Company>
+<Last_x0020_Name>Kupkova</Last_x0020_Name>
+<First_x0020_Name>Helena</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 15th Street</Address>
+<City>Honolulu</City>
+<State_x002F_Province>HI</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>16</ID>
+<Company>Company P</Company>
+<Last_x0020_Name>Goldschmidt</Last_x0020_Name>
+<First_x0020_Name>Daniel</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 16th Street</Address>
+<City>San Francisco</City>
+<State_x002F_Province>CA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>17</ID>
+<Company>Company Q</Company>
+<Last_x0020_Name>Bagel</Last_x0020_Name>
+<First_x0020_Name>Jean Philippe</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 17th Street</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>18</ID>
+<Company>Company R</Company>
+<Last_x0020_Name>Autier Miconi</Last_x0020_Name>
+<First_x0020_Name>Catherine</First_x0020_Name>
+<Job_x0020_Title>Purchasing Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>456 18th Street</Address>
+<City>Boston</City>
+<State_x002F_Province>MA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>19</ID>
+<Company>Company S</Company>
+<Last_x0020_Name>Eggerer</Last_x0020_Name>
+<First_x0020_Name>Alexander</First_x0020_Name>
+<Job_x0020_Title>Accounting Assistant</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 19th Street</Address>
+<City>Los Angelas</City>
+<State_x002F_Province>CA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>20</ID>
+<Company>Company T</Company>
+<Last_x0020_Name>Li</Last_x0020_Name>
+<First_x0020_Name>George</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 20th Street</Address>
+<City>New York</City>
+<State_x002F_Province>NY</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>21</ID>
+<Company>Company U</Company>
+<Last_x0020_Name>Tham</Last_x0020_Name>
+<First_x0020_Name>Bernard</First_x0020_Name>
+<Job_x0020_Title>Accounting Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 21th Street</Address>
+<City>Minneapolis</City>
+<State_x002F_Province>MN</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>22</ID>
+<Company>Company V</Company>
+<Last_x0020_Name>Ramos</Last_x0020_Name>
+<First_x0020_Name>Luciana</First_x0020_Name>
+<Job_x0020_Title>Purchasing Assistant</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 22th Street</Address>
+<City>Milwaukee</City>
+<State_x002F_Province>WI</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>23</ID>
+<Company>Company W</Company>
+<Last_x0020_Name>Entin</Last_x0020_Name>
+<First_x0020_Name>Michael</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 23th Street</Address>
+<City>Portland</City>
+<State_x002F_Province>OR</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>24</ID>
+<Company>Company X</Company>
+<Last_x0020_Name>Hasselberg</Last_x0020_Name>
+<First_x0020_Name>Jonas</First_x0020_Name>
+<Job_x0020_Title>Owner</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 24th Street</Address>
+<City>Salt Lake City</City>
+<State_x002F_Province>UT</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+</Customers>
+<Customers>
+<ID>25</ID>
+<Company>Company Y</Company>
+<Last_x0020_Name>Rodman</Last_x0020_Name>
+<First_x0020_Name>John</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 25th Street</Address>
+<City>Chicago</City>
+<State_x002F_Province>IL</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>50</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>25</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>John Rodman</Ship_x0020_Name>
+<Ship_x0020_Address>789 25th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Cash</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>76</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>25</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>1</Shipper_x0020_ID>
+<Ship_x0020_Name>John Rodman</Ship_x0020_Name>
+<Ship_x0020_Address>789 25th Street</Ship_x0020_Address>
+<Ship_x0020_City>Chicago</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>IL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>5</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Cash</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>26</ID>
+<Company>Company Z</Company>
+<Last_x0020_Name>Liu</Last_x0020_Name>
+<First_x0020_Name>Run</First_x0020_Name>
+<Job_x0020_Title>Accounting Assistant</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 26th Street</Address>
+<City>Miami</City>
+<State_x002F_Province>FL</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>51</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>26</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Run Liu</Ship_x0020_Name>
+<Ship_x0020_Address>789 26th Street</Ship_x0020_Address>
+<Ship_x0020_City>Miami</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>FL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>60</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>77</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>26</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Run Liu</Ship_x0020_Name>
+<Ship_x0020_Address>789 26th Street</Ship_x0020_Address>
+<Ship_x0020_City>Miami</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>FL</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>60</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>27</ID>
+<Company>Company AA</Company>
+<Last_x0020_Name>Toh</Last_x0020_Name>
+<First_x0020_Name>Karen</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 27th Street</Address>
+<City>Las Vegas</City>
+<State_x002F_Province>NV</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>30</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>27</Customer_x0020_ID>
+<Order_x0020_Date>2006-01-15T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-01-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Karen Toh</Ship_x0020_Name>
+<Ship_x0020_Address>789 27th Street</Ship_x0020_Address>
+<Ship_x0020_City>Las Vegas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NV</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>200</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-01-15T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>57</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>27</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-22T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-22T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Karen Toh</Ship_x0020_Name>
+<Ship_x0020_Address>789 27th Street</Ship_x0020_Address>
+<Ship_x0020_City>Las Vegas</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>NV</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>200</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-22T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>28</ID>
+<Company>Company BB</Company>
+<Last_x0020_Name>Raghav</Last_x0020_Name>
+<First_x0020_Name>Amritansh</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 28th Street</Address>
+<City>Memphis</City>
+<State_x002F_Province>TN</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>38</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>28</Customer_x0020_ID>
+<Order_x0020_Date>2006-03-10T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-03-11T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Amritansh Raghav</Ship_x0020_Name>
+<Ship_x0020_Address>789 28th Street</Ship_x0020_Address>
+<Ship_x0020_City>Memphis</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>TN</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>10</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-03-10T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>45</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>28</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-07T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-07T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Amritansh Raghav</Ship_x0020_Name>
+<Ship_x0020_Address>789 28th Street</Ship_x0020_Address>
+<Ship_x0020_City>Memphis</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>TN</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>40</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-07T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>65</Order_x0020_ID>
+<Employee_x0020_ID>9</Employee_x0020_ID>
+<Customer_x0020_ID>28</Customer_x0020_ID>
+<Order_x0020_Date>2006-05-11T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-05-11T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Amritansh Raghav</Ship_x0020_Name>
+<Ship_x0020_Address>789 28th Street</Ship_x0020_Address>
+<Ship_x0020_City>Memphis</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>TN</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>10</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-05-11T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>72</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>28</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-07T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-07T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>3</Shipper_x0020_ID>
+<Ship_x0020_Name>Amritansh Raghav</Ship_x0020_Name>
+<Ship_x0020_Address>789 28th Street</Ship_x0020_Address>
+<Ship_x0020_City>Memphis</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>TN</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>40</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Credit Card</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-07T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Customers>
+<ID>29</ID>
+<Company>Company CC</Company>
+<Last_x0020_Name>Lee</Last_x0020_Name>
+<First_x0020_Name>Soo Jung</First_x0020_Name>
+<Job_x0020_Title>Purchasing Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Fax_x0020_Number>(123)555-0101</Fax_x0020_Number>
+<Address>789 29th Street</Address>
+<City>Denver</City>
+<State_x002F_Province>CO</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Orders>
+<Order_x0020_ID>35</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>29</Customer_x0020_ID>
+<Order_x0020_Date>2006-02-10T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-02-12T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Soo Jung Lee</Ship_x0020_Name>
+<Ship_x0020_Address>789 29th Street</Ship_x0020_Address>
+<Ship_x0020_City>Denver</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CO</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>7</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-02-10T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>55</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>29</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Soo Jung Lee</Ship_x0020_Name>
+<Ship_x0020_Address>789 29th Street</Ship_x0020_Address>
+<Ship_x0020_City>Denver</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CO</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>200</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>62</Order_x0020_ID>
+<Employee_x0020_ID>3</Employee_x0020_ID>
+<Customer_x0020_ID>29</Customer_x0020_ID>
+<Order_x0020_Date>2006-04-12T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-04-12T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Soo Jung Lee</Ship_x0020_Name>
+<Ship_x0020_Address>789 29th Street</Ship_x0020_Address>
+<Ship_x0020_City>Denver</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CO</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>7</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-04-12T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Orders>
+<Orders>
+<Order_x0020_ID>78</Order_x0020_ID>
+<Employee_x0020_ID>1</Employee_x0020_ID>
+<Customer_x0020_ID>29</Customer_x0020_ID>
+<Order_x0020_Date>2006-06-05T00:00:00</Order_x0020_Date>
+<Shipped_x0020_Date>2006-06-05T00:00:00</Shipped_x0020_Date>
+<Shipper_x0020_ID>2</Shipper_x0020_ID>
+<Ship_x0020_Name>Soo Jung Lee</Ship_x0020_Name>
+<Ship_x0020_Address>789 29th Street</Ship_x0020_Address>
+<Ship_x0020_City>Denver</Ship_x0020_City>
+<Ship_x0020_State_x002F_Province>CO</Ship_x0020_State_x002F_Province>
+<Ship_x0020_ZIP_x002F_Postal_x0020_Code>99999</Ship_x0020_ZIP_x002F_Postal_x0020_Code>
+<Ship_x0020_Country_x002F_Region>USA</Ship_x0020_Country_x002F_Region>
+<Shipping_x0020_Fee>200</Shipping_x0020_Fee>
+<Taxes>0</Taxes>
+<Payment_x0020_Type>Check</Payment_x0020_Type>
+<Paid_x0020_Date>2006-06-05T00:00:00</Paid_x0020_Date>
+<Tax_x0020_Rate>0</Tax_x0020_Rate>
+<Status_x0020_ID>3</Status_x0020_ID>
+</Orders>
+</Customers>
+<Order_x0020_Details>
+<ID>27</ID>
+<Order_x0020_ID>30</Order_x0020_ID>
+<Product_x0020_ID>34</Product_x0020_ID>
+<Quantity>100</Quantity>
+<Unit_x0020_Price>14</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>96</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>83</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>28</ID>
+<Order_x0020_ID>30</Order_x0020_ID>
+<Product_x0020_ID>80</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>3.5</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>63</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>29</ID>
+<Order_x0020_ID>31</Order_x0020_ID>
+<Product_x0020_ID>7</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>30</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>64</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>30</ID>
+<Order_x0020_ID>31</Order_x0020_ID>
+<Product_x0020_ID>51</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>53</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>65</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>31</ID>
+<Order_x0020_ID>31</Order_x0020_ID>
+<Product_x0020_ID>80</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>3.5</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>66</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>32</ID>
+<Order_x0020_ID>32</Order_x0020_ID>
+<Product_x0020_ID>1</Product_x0020_ID>
+<Quantity>15</Quantity>
+<Unit_x0020_Price>18</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>67</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>33</ID>
+<Order_x0020_ID>32</Order_x0020_ID>
+<Product_x0020_ID>43</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>46</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>68</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>34</ID>
+<Order_x0020_ID>33</Order_x0020_ID>
+<Product_x0020_ID>19</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>9.2</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>97</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>81</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>35</ID>
+<Order_x0020_ID>34</Order_x0020_ID>
+<Product_x0020_ID>19</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>9.2</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>69</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>36</ID>
+<Order_x0020_ID>35</Order_x0020_ID>
+<Product_x0020_ID>48</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>12.75</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>70</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>37</ID>
+<Order_x0020_ID>36</Order_x0020_ID>
+<Product_x0020_ID>41</Product_x0020_ID>
+<Quantity>200</Quantity>
+<Unit_x0020_Price>9.65</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>98</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>79</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>38</ID>
+<Order_x0020_ID>37</Order_x0020_ID>
+<Product_x0020_ID>8</Product_x0020_ID>
+<Quantity>17</Quantity>
+<Unit_x0020_Price>40</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>71</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>39</ID>
+<Order_x0020_ID>38</Order_x0020_ID>
+<Product_x0020_ID>43</Product_x0020_ID>
+<Quantity>300</Quantity>
+<Unit_x0020_Price>46</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>99</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>77</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>40</ID>
+<Order_x0020_ID>39</Order_x0020_ID>
+<Product_x0020_ID>48</Product_x0020_ID>
+<Quantity>100</Quantity>
+<Unit_x0020_Price>12.75</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>100</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>75</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>41</ID>
+<Order_x0020_ID>40</Order_x0020_ID>
+<Product_x0020_ID>81</Product_x0020_ID>
+<Quantity>200</Quantity>
+<Unit_x0020_Price>2.99</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>101</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>73</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>42</ID>
+<Order_x0020_ID>41</Order_x0020_ID>
+<Product_x0020_ID>43</Product_x0020_ID>
+<Quantity>300</Quantity>
+<Unit_x0020_Price>46</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>102</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>104</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>43</ID>
+<Order_x0020_ID>42</Order_x0020_ID>
+<Product_x0020_ID>6</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>25</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>84</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>44</ID>
+<Order_x0020_ID>42</Order_x0020_ID>
+<Product_x0020_ID>4</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>22</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>85</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>45</ID>
+<Order_x0020_ID>42</Order_x0020_ID>
+<Product_x0020_ID>19</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>9.2</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>103</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>110</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>46</ID>
+<Order_x0020_ID>43</Order_x0020_ID>
+<Product_x0020_ID>80</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>3.5</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>86</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>47</ID>
+<Order_x0020_ID>43</Order_x0020_ID>
+<Product_x0020_ID>81</Product_x0020_ID>
+<Quantity>50</Quantity>
+<Unit_x0020_Price>2.99</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>87</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>48</ID>
+<Order_x0020_ID>44</Order_x0020_ID>
+<Product_x0020_ID>1</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>18</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>88</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>49</ID>
+<Order_x0020_ID>44</Order_x0020_ID>
+<Product_x0020_ID>43</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>46</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>89</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>50</ID>
+<Order_x0020_ID>44</Order_x0020_ID>
+<Product_x0020_ID>81</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>2.99</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>90</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>51</ID>
+<Order_x0020_ID>45</Order_x0020_ID>
+<Product_x0020_ID>41</Product_x0020_ID>
+<Quantity>50</Quantity>
+<Unit_x0020_Price>9.65</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>104</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>116</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>52</ID>
+<Order_x0020_ID>45</Order_x0020_ID>
+<Product_x0020_ID>40</Product_x0020_ID>
+<Quantity>50</Quantity>
+<Unit_x0020_Price>18.4</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>91</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>53</ID>
+<Order_x0020_ID>46</Order_x0020_ID>
+<Product_x0020_ID>57</Product_x0020_ID>
+<Quantity>100</Quantity>
+<Unit_x0020_Price>19.5</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>105</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>101</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>54</ID>
+<Order_x0020_ID>46</Order_x0020_ID>
+<Product_x0020_ID>72</Product_x0020_ID>
+<Quantity>50</Quantity>
+<Unit_x0020_Price>34.8</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>106</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>114</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>55</ID>
+<Order_x0020_ID>47</Order_x0020_ID>
+<Product_x0020_ID>34</Product_x0020_ID>
+<Quantity>300</Quantity>
+<Unit_x0020_Price>14</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>107</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>108</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>56</ID>
+<Order_x0020_ID>48</Order_x0020_ID>
+<Product_x0020_ID>8</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>40</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>108</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>106</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>57</ID>
+<Order_x0020_ID>48</Order_x0020_ID>
+<Product_x0020_ID>19</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>9.2</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>109</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>112</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>59</ID>
+<Order_x0020_ID>50</Order_x0020_ID>
+<Product_x0020_ID>21</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>10</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>92</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>60</ID>
+<Order_x0020_ID>51</Order_x0020_ID>
+<Product_x0020_ID>5</Product_x0020_ID>
+<Quantity>25</Quantity>
+<Unit_x0020_Price>21.35</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>93</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>61</ID>
+<Order_x0020_ID>51</Order_x0020_ID>
+<Product_x0020_ID>41</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>9.65</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>94</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>62</ID>
+<Order_x0020_ID>51</Order_x0020_ID>
+<Product_x0020_ID>40</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>18.4</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>95</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>66</ID>
+<Order_x0020_ID>56</Order_x0020_ID>
+<Product_x0020_ID>48</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>12.75</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Purchase_x0020_Order_x0020_ID>111</Purchase_x0020_Order_x0020_ID>
+<Inventory_x0020_ID>99</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>67</ID>
+<Order_x0020_ID>55</Order_x0020_ID>
+<Product_x0020_ID>34</Product_x0020_ID>
+<Quantity>87</Quantity>
+<Unit_x0020_Price>14</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>117</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>68</ID>
+<Order_x0020_ID>79</Order_x0020_ID>
+<Product_x0020_ID>7</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>30</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>119</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>69</ID>
+<Order_x0020_ID>79</Order_x0020_ID>
+<Product_x0020_ID>51</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>53</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>118</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>70</ID>
+<Order_x0020_ID>78</Order_x0020_ID>
+<Product_x0020_ID>17</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>39</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>120</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>71</ID>
+<Order_x0020_ID>77</Order_x0020_ID>
+<Product_x0020_ID>6</Product_x0020_ID>
+<Quantity>90</Quantity>
+<Unit_x0020_Price>25</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>121</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>72</ID>
+<Order_x0020_ID>76</Order_x0020_ID>
+<Product_x0020_ID>4</Product_x0020_ID>
+<Quantity>30</Quantity>
+<Unit_x0020_Price>22</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>122</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>73</ID>
+<Order_x0020_ID>75</Order_x0020_ID>
+<Product_x0020_ID>48</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>12.75</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>123</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>74</ID>
+<Order_x0020_ID>74</Order_x0020_ID>
+<Product_x0020_ID>48</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>12.75</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>124</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>75</ID>
+<Order_x0020_ID>73</Order_x0020_ID>
+<Product_x0020_ID>41</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>9.65</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>125</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>76</ID>
+<Order_x0020_ID>72</Order_x0020_ID>
+<Product_x0020_ID>43</Product_x0020_ID>
+<Quantity>5</Quantity>
+<Unit_x0020_Price>46</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>126</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>77</ID>
+<Order_x0020_ID>71</Order_x0020_ID>
+<Product_x0020_ID>40</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>18.4</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>127</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>78</ID>
+<Order_x0020_ID>70</Order_x0020_ID>
+<Product_x0020_ID>8</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>40</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>128</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>79</ID>
+<Order_x0020_ID>69</Order_x0020_ID>
+<Product_x0020_ID>80</Product_x0020_ID>
+<Quantity>15</Quantity>
+<Unit_x0020_Price>3.5</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>129</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>80</ID>
+<Order_x0020_ID>67</Order_x0020_ID>
+<Product_x0020_ID>74</Product_x0020_ID>
+<Quantity>20</Quantity>
+<Unit_x0020_Price>10</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>130</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>81</ID>
+<Order_x0020_ID>60</Order_x0020_ID>
+<Product_x0020_ID>72</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>34.8</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>131</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>82</ID>
+<Order_x0020_ID>63</Order_x0020_ID>
+<Product_x0020_ID>3</Product_x0020_ID>
+<Quantity>50</Quantity>
+<Unit_x0020_Price>10</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>132</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>83</ID>
+<Order_x0020_ID>63</Order_x0020_ID>
+<Product_x0020_ID>8</Product_x0020_ID>
+<Quantity>3</Quantity>
+<Unit_x0020_Price>40</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>133</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>84</ID>
+<Order_x0020_ID>58</Order_x0020_ID>
+<Product_x0020_ID>20</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>81</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>134</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>85</ID>
+<Order_x0020_ID>58</Order_x0020_ID>
+<Product_x0020_ID>52</Product_x0020_ID>
+<Quantity>40</Quantity>
+<Unit_x0020_Price>7</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>2</Status_x0020_ID>
+<Inventory_x0020_ID>135</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>86</ID>
+<Order_x0020_ID>80</Order_x0020_ID>
+<Product_x0020_ID>56</Product_x0020_ID>
+<Quantity>10</Quantity>
+<Unit_x0020_Price>38</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>1</Status_x0020_ID>
+<Inventory_x0020_ID>136</Inventory_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>90</ID>
+<Order_x0020_ID>81</Order_x0020_ID>
+<Product_x0020_ID>81</Product_x0020_ID>
+<Quantity>0</Quantity>
+<Unit_x0020_Price>2.99</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>5</Status_x0020_ID>
+</Order_x0020_Details>
+<Order_x0020_Details>
+<ID>91</ID>
+<Order_x0020_ID>81</Order_x0020_ID>
+<Product_x0020_ID>56</Product_x0020_ID>
+<Quantity>0</Quantity>
+<Unit_x0020_Price>38</Unit_x0020_Price>
+<Discount>0</Discount>
+<Status_x0020_ID>0</Status_x0020_ID>
+</Order_x0020_Details>
+</dataroot>

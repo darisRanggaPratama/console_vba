@@ -1,0 +1,34 @@
+Sub OpenStudentDetails(ByVal control As IRibbonControl)
+	DoCmd.OpenForm "Student Details", acNormal, , , acFormAdd
+End Sub
+
+Sub OpenStudentList(ByVal control As IRibbonControl)
+	DoCmd.OpenForm "Student List", acNormal
+End Sub
+
+Public Function LoadRibbon()
+	Dim strXML As String
+	Dim oFso As New FileSystemObject
+	Dim oTStream As TextStream
+
+	' Open the file containing the Ribbon customizations
+	' and return a TextStream object that will be used
+	' for reading from the file
+	Set oTStream = oFso.OpenTextFile("C:\VBAAccess2019_ByExample" & _
+	   "\EduSystems_01.XML", ForReading)
+
+
+	' Read the entire stream into a string variable
+	strXML = oTStream.ReadAll
+
+	' Close the TextStream object
+	oTStream.Close
+
+	' Free up resources
+	Set oTStream = Nothing
+	Set oFso = Nothing
+
+	' load XML markup that represents a customized Ribbon
+	Application.LoadCustomUI "EduTabR", strXML
+
+End Function

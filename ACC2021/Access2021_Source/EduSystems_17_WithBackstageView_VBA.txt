@@ -1,0 +1,67 @@
+'///////////////////////////////////////////////////////
+' VBA Pocedures for Backstage View
+'//////////////////////////////////////////////////////
+
+Sub onActionCopyToArchive(ctl As IRibbonControl)
+  CreateDbCopy
+End Sub
+
+Sub CreateDbCopy()
+  Dim fso As Object
+  Dim dbName As String
+  Dim dbNewName As String
+  
+  On Error GoTo ErrorHandler
+  
+  Set fso = CreateObject("Scripting.FileSystemObject")
+
+  dbName = InputBox("Enter the name of the database " & _
+    "you want to copy: " & _
+    "(C:\VBAAccess2021_ByExample\Chap20.accdb)", _
+    "Create a copy of")
+  
+  If dbName = "" Then Exit Sub
+  If Dir(dbName) = "" Then
+    MsgBox dbName & " was not found. " & Chr(13) _
+    & "Check the database name or path."
+    Exit Sub
+  End If
+  
+  dbNewName = InputBox("Enter the name for the " & _
+    "copied database:" & Chr(13) & _
+    "(C:\VBAAccess2021_ByExample\Chap20Ver2.accdb)", _
+    "Save As")
+  If dbNewName = "" Then Exit Sub
+  
+  If Dir(dbNewName) <> "" Then
+    Kill dbNewName
+  End If
+  
+  fso.CopyFile dbName, dbNewName
+  Set fso = Nothing
+
+  Exit Sub
+ErrorHandler:
+  MsgBox Err.Number & ":" & Err.Description
+End Sub
+
+
+
+Sub onActionExecHyperlink(ctl As IRibbonControl, _
+  ByRef target)
+  Select Case ctl.ID
+  Case "YouTube"
+    target = "http://www.YouTube.com"
+  Case "amazon"
+    target = "http://www.amazon.com"
+  Case "merc"
+    target = "http://www.merclearning.com"
+  Case "msft"
+    target = "http://www.Microsoft.com"
+  Case Else
+    MsgBox "You clicked control id " & ctl.ID & _
+    " that has not been programmed!"
+  End Select
+End Sub
+
+

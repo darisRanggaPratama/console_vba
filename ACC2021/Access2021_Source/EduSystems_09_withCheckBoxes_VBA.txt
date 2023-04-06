@@ -1,0 +1,21 @@
+'//////////////////////////////////////////
+' Checkboxes VBA procedures
+'/////////////////////////////////////////
+
+Public Sub onGetLabel(ctl As IRibbonControl, ByRef label)
+  If ctl.ID = "chkSportsMusic" And _
+   Weekday(Now(), vbWednesday) Then
+    label = "Sports"
+  Else
+    label = "Music"
+  End If
+End Sub
+
+Public Sub DoSomething(ctl As IRibbonControl, _
+ pressed As Boolean)
+  If ctl.ID = "chkSafety" And pressed Then
+    MsgBox "Safety is our number one concern."
+  Else
+    MsgBox "Sorry to hear that safety is not your concern."
+  End If
+End Sub
