@@ -7,9 +7,9 @@ Public Sub RunDemo()
     texts ("Tanggal/Time (Timer): " & Timer)
     texts ("-----")
 
-    DemoArray
-
-
+    DemoArray    
+    DemoCollection   
+    PerfomanceComparison 
 End Sub
 
 Public Sub texts(ByVal message As String)
@@ -23,11 +23,11 @@ Public Sub DemoArray()
     Dim j As Long
     Dim posToRemove As Long
 
-    texts ("- Demo: Array -")
+    texts (vbnewline & "- Demo: Array -")
 
     ' - Fixed-size Array -
     Dim fixedArr(0 To 4) As String
-    texts ("Fixed-size array dideklarasikan: fixedArr(0 To 4) -> total 5 elemen")
+    texts (vbnewline & "Fixed-size array dideklarasikan: fixedArr(0 To 4) -> total 5 elemen")
 
     ' Isi data via indeks (akses cepat)
     fixedArr(0) = "Alpha"
@@ -57,7 +57,7 @@ Public Sub DemoArray()
     dynArr(1) = 10
     dynArr(2) = 20
     dynArr(3) = 30
-    texts("Dynamic array awal: ReDim dynArr(1 To 3)")
+    texts(vbnewline & "Dynamic array awal: ReDim dynArr(1 To 3)")
     For i = LBound(dynArr) To UBound(dynArr)
         texts("  dynArr(" & i & ") = " & dynArr(i))
     Next i
@@ -66,13 +66,13 @@ Public Sub DemoArray()
     ReDim Preserve dynArr(1 To 5)
     dynArr(4) = 40
     dynArr(5) = 50
-    texts("After ReDim Preseve dynArr(1 To 5):")
+    texts(vbnewline & "After ReDim Preseve dynArr(1 To 5):")
     For i = LBound(dynArr) To UBound(dynArr)
         texts("  dynArr(" & i & ") = " & dynArr(i))
     Next i
 
     ' - Menghapus elemen di Array (workaround) -
-    texts("Contoh: menghapus elemen posisi 2 (bukan built-in; gunakan shift + ReDim Preserve)")
+    texts(vbnewline & "Contoh: menghapus elemen posisi 2 (bukan built-in; gunakan shift + ReDim Preserve)")
     posToRemove = 2
     texts(" Sebelum penghapusan (count = " & (UBound(dynArr) - LBound(dynArr) + 1) & "):")
     For i = LBound(dynArr) To UBound(dynArr)
@@ -93,24 +93,24 @@ Public Sub DemoArray()
     Next i
 
     '- Iterasi: For(index) vs For Each -
-    texts("Iterasi array: For i = LBound To UBound (umum & cepat):")
+    texts(vbnewline & "Iterasi array: For i = LBound To UBound (umum & cepat):")
     For i = LBound(dynArr) To UBound(dynArr)
         texts("  index " & i & " -> " & dynArr(i))
     Next i
 
-    texts("Iterasi array: For Each (bisa digunakan pada array):")
+    texts(vbnewline & "Iterasi array: For Each (bisa digunakan pada array):")
     Dim V As Variant
     For Each V In dynArr
         texts("  value -> " & V)
     Next V
 
-    texts("Catatan: Array - ukuran bisa tetap (fixed) atau diubah dengan ReDim (dynamic), akses via index cepat.")
+    texts(vbnewline & "Catatan: Array - ukuran bisa tetap (fixed) atau diubah dengan ReDim (dynamic), akses via index cepat.")
 End Sub
 
 ' Demonstrasi Collection
 Public sub DemoCollection()
     on error resume next
-    texts(" - DEMO: Collection -")
+    texts(vbnewline & " - DEMO: Collection -")
 
     dim coll as new collection
     dim i as long
@@ -121,7 +121,7 @@ Public sub DemoCollection()
     coll.add "Dua" ' tanpa key (akses via index)
     coll.add "Tiga", "kTiga"
     coll.add "Empat" ' tanpa key
-    texts("Collection ditambahkan 4 elemen (beberapa dengan Key): count = " & coll.count)
+    texts(vbnewline & "Collection ditambahkan 4 elemen (beberapa dengan Key): count = " & coll.count)
 
     ' Akses by index dan by key
     texts("Akses by index coll(2) = " & coll(2))
@@ -139,7 +139,7 @@ Public sub DemoCollection()
     end if
 
     ' Hapus elemen: Remove by index dan Remove by key
-    texts("Hapus elemen index 2 (coll.Remove 2)")
+    texts(vbnewline & "Hapus elemen index 2 (coll.Remove 2)")
     err.clear
     coll.remove 2 ' runtime error 5 (invalid procedure call or argument)
     if err.number <> 0 then
@@ -149,7 +149,7 @@ Public sub DemoCollection()
         texts(" Berhasil remove index 2. count sekarang = " & coll.count)
     end if
 
-    texts("Hapus elemen by key 'kSatu' (coll.Remove ""kSatu"")")
+    texts(vbnewline & "Hapus elemen by key 'kSatu' (coll.Remove ""kSatu"")")
     err.clear
     coll.remove "kSatu"
     if err.number <> 0 then
@@ -160,19 +160,73 @@ Public sub DemoCollection()
     end if
 
     ' Iterasi: For Each (disukai untuk Collection) vs For i = 1 To coll.Count
-    texts("Iterasi Collection: For Each (preferred):")
+    texts(vbnewline & "Iterasi Collection: For Each (preferred):")
     for each itm in coll
         texts(" For Each -> " & itm)
     next itm
 
-    texts("Iterasi Collection: For i = 1 To coll.Count (akses via coll(i)):")
+    texts(vbnewline & "Iterasi Collection: For i = 1 To coll.Count (akses via coll(i)):")
     for i = 1 to coll.count
         texts(" coll(" & i & ") = " & coll(i))
     next i
 
     ' Menunjukkan penggunaan Key lebih intuitif:
-    
+    texts("Contoh penggunaan Key: tambahkan dan akses via key.")
+    coll.add "Lima", "kLima"
+    texts("Akses by key 'kLima': " & coll("kLima"))
 
+    texts("Catatan: Collection - ukuran dinamis, mendukung key string unik, mudah Add/Remove")
 End Sub
 
+' Perbandingan performa (Sederhana)
+public sub PerfomanceComparison()
+    on error resume next
+    texts(vbnewline & " - PERFORMANCE COMPARISON: Array vs Collection -")
+
+    dim n as long
+    n = 100000 ' Jumlah elemen untuk pengujian (ubah jika perlu)
+
+    dim i as long
+    dim t0 as double, t1 as double
+    dim tmp as variant
+
+    ' - Array fill & read -
+    dim arr() as long
+    redim arr(1 to n)
+
+    t0 = timer
+    for i = 1 to n
+        arr(i) = i
+    next i
+    t1 = timer
+    texts("Array: mengisi " & n & " elemen -> " & Format(t1 - t0, "0.000") & " detik")
+
+    t0 = Timer
+    for i = 1 to n
+        tmp = arr(i)
+    next i
+    t1 = Timer
+    texts("Array: membaca " & n & " elemen via index -> " & Format(t1 - t0, "0.000") & " detik")
+
+    ' - Collection add & read -
+    dim c as new collection
+    t0 = timer
+    for i = 1 to n
+        c.add i
+    next i
+    t1 = timer
+    texts("Collection: menambahkan " & n & " elemen -> " & Format(t1 - t0, "0.000") & " detik")
+
+    t0 = timer
+    for i = 1 to c.count
+        tmp = c(i)
+    next i
+    t1 = timer
+    texts("Collection: membaca: " & n & " elemen via index -> " & Format(t1 - t0, "0.000") & "detik")
+
+    texts(vbnewline & "KESIMPULAN SINGKAT PERFORMA: pada umumnya array lebih cepat untuk akses berindeks dan operasi bulk.")
+    texts(vbnewline & "Namun Collections unggul pada fleksibilitas (Add/Remove, Key). Pilih struktur sesuai kebutuhan.")
+    
+
+end sub
 
